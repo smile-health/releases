@@ -619,64 +619,56 @@ Previously, notifications for materials that were close to expiration were sent 
 Specific users can add annual commitments per material (for allocations and buffers) in the selected year, based on the contract number and province that has been specified.
 
 ![Image](images/9.1.png)
-Annual Commitment Dashboard from the Ministry of Health to the Province
+#### Annual Commitment Dashboard from the Ministry of Health to the Province
 Certain users can view the progress dashboard of material realization that has been delivered based on the value of the commitments listed in the contract (for allocation and buffer), both at the national and provincial levels.
 
 ![Image](images/9.2.png)
-Temperature Monitoring Dashboard
+#### Temperature Monitoring Dashboard
 Users can view temperature monitoring chart information that is actively registered and connected to Remote Temperature Monitoring Devices (RTMD) in SMILE.
 
 ![Image](images/9.3.png)
-Changes to Account Profile Data
+#### Changes to Account Profile Data
 Feature changes so that users can change data information such as emails, passwords, and others in their SMILE account independently
 
 ![Image](images/9.4.png)
-Force Change Password
+#### Force Change Password
 Feature changes to make it easier for Admins to ask users to change their passwords through the system.
 
 ![Image](images/9.5.png)
-Update Group Menu
+#### Update Group Menu
 Changes to the navbar menu in Immunization and logistics, previously there were 7 menus, now there are 4 menus
 
 ![Image](images/9.6.png)
  
 
 ![Image](images/9.7.png)
-Update Sequence Rabies
-Update on the separation of vaccination types into 3, namely pre-exposure, post-exposure and booster.
-
-Addition of Intra Dermal (ID) & Intra Muscular (IM) methods for post-exposure and booster vaccination types
-
-IM booster sequence changes: day 0 maximum 1 dose, day 3 maximum 1 dose. ID booster method: day 0 = 4 doses, so no booster is needed on day 3. If the ID booster on day 0 is <4 doses, then the booster on day 3 = 1 dose
-
-Dosage filling for PEP vaccine IM method: PEP day 0 dose quantity = 2. If you will fill 1 dose, please use the pre-exposure vaccination type.
+#### Update Sequence Rabies
+- Update on the separation of vaccination types into 3, namely pre-exposure, post-exposure and booster.
+- Addition of Intra Dermal (ID) & Intra Muscular (IM) methods for post-exposure and booster vaccination types
+- IM booster sequence changes: day 0 maximum 1 dose, day 3 maximum 1 dose. ID booster method: day 0 = 4 doses, so no booster is needed on day 3. If the ID booster on day 0 is <4 doses, then the booster on day 3 = 1 dose
+- Dosage filling for PEP vaccine IM method: PEP day 0 dose quantity = 2. If you will fill 1 dose, please use the pre-exposure vaccination type.
 
 ![Image](images/9.8.png)
-Rabies Dashboard Update
-Changing the Sankey diagram to a stacked bar diagram
-
-Additional number of hospital entities in the program coverage section
+#### Rabies Dashboard Update
+- Changing the Sankey diagram to a stacked bar diagram
+- Additional number of hospital entities in the program coverage section
 
 ![Image](images/9.9.png)
-Adjustment Formula for Stock Availability and Replenishment from Out of Stock
-Formula adjustments for stock availability, replenishment from out of stock and abnormal stock
-
-Formula adjustments for stock availability exports, replenishment from out of stock and abnormal stock
-
-Additional Per Material Entity tab on stock availability, replenishment from out of stock and abnormal stock pages
+#### Adjustment Formula for Stock Availability and Replenishment from Out of Stock
+- Formula adjustments for stock availability, replenishment from out of stock and abnormal stock
+- Formula adjustments for stock availability exports, replenishment from out of stock and abnormal stock
+- Additional Per Material Entity tab on stock availability, replenishment from out of stock and abnormal stock pages
 
 ![Image](images/9.10.png)
-iOS Training & Production Logistic
+#### iOS Training & Production Logistic
 
-iOS Logistics Training is now available on the App Store with the search keyword "SMILE Logistics Training"
-
-iOS Production Logistics is still unlisted, it can be accessed via the following link: Click here
+- iOS Logistics Training is now available on the App Store with the search keyword "SMILE Logistics Training"
+- iOS Production Logistics is still unlisted, it can be accessed via the following link: Click here
 
 ![Image](images/9.11.png)
-Central Delivery Update
-Additional delivery types include " Regular " (for allocation delivery) and " Central Buffer " (for buffer delivery)
-
-Addition of Contract Number column
+#### Central Delivery Update
+- Additional delivery types include " Regular " (for allocation delivery) and " Central Buffer " (for buffer delivery)
+- Addition of Contract Number column
 
 ![Image](images/9.12.png)
 
@@ -692,15 +684,15 @@ Addition of Contract Number column
 - Download stock book reports by province, district/city, health center and entity for the required period *Enhancement*
 
 ### Enhancement Feature
-Update the flow to add stock taking
+#### Update the flow to add stock taking
 Updating the flow of adding stock take so that users can focus on materials, not on activities and users can get markers for which materials have been stock taken.
 
 ![Image](images/10.1.png)
-View the recapitulation of the stock taking process for each specific period
+#### View the recapitulation of the stock taking process for each specific period
 Users can view and download a summary of the stocktaking process for each specific period.
 
 ![Image](images/10.2.png)
-Download stock book reports by province, district/city, health center and entity for the required period
+#### Download stock book reports by province, district/city, health center and entity for the required period
 Users can download material stock reports based on province, district/city, health center and entity for the required period.
 
 ![Image](images/10.3.png)
@@ -719,7 +711,7 @@ Confirm to stop the Rabies Vaccination notification
 Users can confirm to stop the Rabies Vaccination notification.
 
 ![Image](images/11.1.png)
-View assets that have more than one temperature range and capacity
+#### View assets that have more than one temperature range and capacity
 Users can view Assets that have more than one Temperature Range and Capacity, such as Freezers and Vaccine Refrigerators.
 
 ![Image](images/11.2.png)
@@ -738,11 +730,11 @@ Users can view Assets that have more than one Temperature Range and Capacity, su
 - Change the cold chain temperature limit and view the logger activity history  *New Feature*
 
 ### New Feature
-Distribution rabies vaccines with a pre-exposure type
+#### Distribution rabies vaccines with a pre-exposure type
 Carrying out rabies vaccine distribution with pre-exposure types consisting of Intra-Muscular and Intra Dermal.
 
 ![Image](images/12.1.png)
-Change the cold chain temperature limit and view the logger activity history
+#### Change the cold chain temperature limit and view the logger activity history
 Change cold chain temperature limits and view logger activity history by displaying cold chain status and temperature limits.
 
 ![Image](images/12.2.png)
@@ -758,15 +750,15 @@ Change cold chain temperature limits and view logger activity history by display
 - View the Stock Dashboard with KFA levels  *New Feature*
 
 ### New Feature
-View stocks with KFA levels
+#### View stocks with KFA levels
 View the stock of material level Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
 ![Image](images/13.1.png)
-Create material orders with KFA levels
+#### Create material orders with KFA levels
 Create material orders with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
 ![Image](images/13.2.png)
-View the stock dashboard with KFA levels
+#### View the stock dashboard with KFA levels
 View the stock dashboard with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93).
 
 ![Image](images/13.3.png)
@@ -782,15 +774,15 @@ View the stock dashboard with material levels of Active Ingredients & Strength (
 - View Coldchain Capacity Projections in Orders  *New Feature*
 
 ### New Feature
-View Coldchain Capacity with capacity projections
+#### View Coldchain Capacity with capacity projections
 Added coldchain capacity projections related to maximum data of each stock
 
 ![Image](images/14.1.png)
-View Capacity for Annual Planning
+#### View Capacity for Annual Planning
 Comparing the actual cold chain with the total needs from the annual planning.
 
 ![Image](images/14.2.png)
-View Coldchain Capacity Projections in Orders
+#### View Coldchain Capacity Projections in Orders
 Added coldchain capacity projections in order details to inform users about the estimated capacity used once the order is fulfilled.
 
 ![Image](images/14.3.png)
