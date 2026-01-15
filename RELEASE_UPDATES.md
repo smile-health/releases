@@ -134,6 +134,24 @@ Users cannot perform stock reduction transactions for materials that use restric
   - Discard Dashboard <sup>_New Feature_</sup>  
     The Discard Dashboard functions to display a summary of the total accumulated quantity/amount of stock in disposal transactions for each reason on an entity in a given period.
 
+## New Features & Enhancement
+### Nomenclature Enhancement
+An update from the previous one, namely an update to the wording or terminology to make it easier for users who experience difficulties when encountering terms that differ from the previous version.
+| Old Term                     | New Terms                    | Platform        |
+|------------------------------|------------------------------|-----------------|
+| Platform                     | Vendor                       | Web             |
+| Sender                       | Customer                     | Web & Mobile    |
+| Receiver                     | Receiver                     | Web & Mobile    |
+| Return Acceptance            | Return                       | Web             |
+| Stock on Hand                | Remaining Stock              | Web & Mobile    |
+| Active Substance Material    | Product Template Material    | Web & Mobile    |
+| Trademark Material           | Product Variants Material    | Web & Mobile    |
+| Batch Notes                  | Allocation Notes             | Web             |
+| Return of Health Facilities  | Return of Last Mile          | Web & Mobile    |
+
+![Image](images/2.1.png)
+
+
 
 
 ---
