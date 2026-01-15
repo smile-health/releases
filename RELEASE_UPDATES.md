@@ -373,160 +373,608 @@ The "Annual Commitment vs Realization" feature monitors the achievement in quant
 
 ## July 16, 2025 
 
-1. Create Dengue Expenditure Transaction with New Form 
+[Smile Immunization - Release Version 3.8.1] Download App 
 
-2. Annual Planning and Master Data Development 
+Feature Updates in this release
+Create Distribution Dengue Transaction with New Form Enhancement
 
-3. Notification and Daily Recap Email Development 
+Development of Annual Planning and Master Data Enhancement
 
-4. Setting daily recap recipients using User settings
+Notification Development and Daily Email Recap Enhancement
 
-5. Changing wording in 4 notifications
+Enhancement Feature
+Create Distribution Dengue Transaction with New Form 
+Transaction Process:
 
-6. Changing wording and logic in temperature above maximum and below minimum notifications
+Select Material
 
-7. Adding 3 new notifications
+Distribution → Entity > Activity > Material > Select Material Batch
+
+Data Input:
+
+NIK  
+
+NIK is used by the system to recommend vaccine doses and to search patient data in the database.  
+
+Select the vaccine sequence (Dose I / II). The vaccine sequence is automatically filled by the system based on the NIK.  
+
+If the patient transaction is not found, the system fills in Dose I.  
+
+If the patient’s last transaction is Dose I, the system fills in Dose II.  
+
+If the user changes the selected Dose, the system will display a confirmation pop-up.  
+
+Total Distribution (only 1 per transaction)  
+
+Reaction after vaccination (Fever, Red Rash, Seizure, No Reaction, Other)  
+
+If the reaction = Other, an additional field appears for manual input.
+
+Patient Data Verification:
+
+If the patient is not yet registered → Click Fill Form  
+
+If the patient is already registered → The button changes to "View Patient Form"
+
+When Submitting a Transaction:
+
+If Dose II is submitted first & there is no Dose I, the system requests the input of Dose I data first.
+
+Patient Data:
+
+Generated from NIK: Gender and Date of Birth
+
+Entered by the user: Full Name, Marital Status, Last Educational, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History & Prevention
+
+image-20260115-022204.png
+image-20260115-022233.png
+Addition of Adverse Event Following Immunization (AEFI): 
+
+Click "View Transaction"
+
+Click "View AEFI History" on the desired transaction
+
+Click + on the top right of the screen
+
+The content of the reaction after vaccination and the actual date of the reaction
+
+image-20260115-022554.png
+ 
+
+Development of Annual Planning and Master Data
+Percentage Customization on the Grant Amount Data Master as one of the calculations
+
+Ability to change master data in the middle of the annual planning process
+
+Change of "Distribution Per Month" formula from 1 Month + 1 Week to 1 Month only
+
+ 
+
+Notification Development and Daily Email Recap 
+Set up daily recap recipients using User settings
+
+Change sentences in 4 notifications
+
+Change sentences and logic in temperature notifications over maximum and less than minimum
+
+Added 3 new notifications
 
 ---
 
 ## June 18, 2025
 
-1. Addition of Filter and KFA 92 Data on Transaction Monitoring Dashboard 
+[Smile Logistics - Release Version 1.4.1] Download App
 
-2. Material Expiry Notification at 60 and 90 days 
+Feature Updates in this release
+Addition of 92 Filters and Data to the Transaction Monitoring Dashboard  Enhancement
 
-Users can now record the following information:
-| Notification|
-|---|
-|Warranty start and end dates|
-|Last maintenance date|
-|Maintenance interval|
-|Last calibration date|
-|Calibration interval|
+Notification of Expired Material in 60 and 90 days  Enhancement
 
+Maintenance, Calibration, and Warranty Information on Asset Inventory Enhancement
 
-Based on the last maintenance date and the set interval, the system will send a reminder notification for the next maintenance schedule 1 day before (H-1).
-Based on the last calibration date and the set interval, the system will send a reminder notification for the next calibration schedule 1 day before (H-1).
+Order Integration with SIHA and SITB New Feature
 
+New Feature & Enhancement
+Addition of 92 Filters and Data to the Transaction Monitoring Dashboard
+On the Transaction Monitoring List page of the Complete Entity tab, users can now view the parent material data (KFA 92) of each transaction in the table.
 
-3. Order Integration with SIHA (HIV/AIDS Information System) and SITB (Tuberculosis Information System) 
+image-20260115-025249.png
+ 
+
+In addition, now users can also filter the Transaction Monitoring Dashboard data based on the level of the KFA Material.
+
+image-20260115-025335.png
+If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
+
+image-20260115-025403.png
+In addition, the material grouping data on the Consumption Per Material chart also follows the selected KFA Filter.
+
+image-20260115-025435.png
+Notification of Expired Material in 60 and 90 days
+Previously, notifications for materials that were close to expiration were sent on the 30th, 14th, 10th, 3rd, and 1st day before the expiration date. Now, notifications will also be sent 60 and 90 days before the material expires.
+
+image-20260115-025553.png
+Maintenance, Calibration, and Warranty Information on Asset Inventory
+Currently users can record the following information:
+
+Warranty start and end dates
+
+Last date of maintenance
+
+Maintenance time interval
+
+Last calibration date
+
+Calibration time interval
+
+image-20260115-025701.png
+ 
+
+unduhan-20260115-025807.jpg
+Based on the last date of maintenance and the specified interval, the system will send a notification reminding you of the next maintenance schedule on D-1.
+
+image-20260115-030004.png
+image-20260115-030026.png
+Based on the last calibration date and the specified interval, the system will send a reminder notification of the next calibration schedule on D-1.
+
+image-20260115-030101.png
+image-20260115-030113.png
+Order Integration with SIHA and SITB
+In the integration of SMILE with the HIV AIDS INFORMATION SYSTEM (SIHA) and the Tuberculosis Information System (SITB), the process begins with SIHA or SITB making a request to the SMILE API to make an order. The status of the Order made will be a Draft 
+
+image-20260115-030521.png
+SMILE users validate by entering the validated amount for each material. Then click Save Submit Validation. 
+
+image-20260115-030607.png
+SMILE users can enter a mail number and a message (if applicable). Then click Submit. 
+
+image-20260115-030910.png
+Orders on SMILE change to Pending. In addition, SMILE also sent information to SIHA and SITB that the order had been validated. 
+
+image-20260115-030939.png
+Ideally, the confirmation process is carried out from SIHA and SITB, then sends data to SMILE through the API that has been provided to change its status to "Confirmed". 
+
+image-20260115-031001.png
+The user allocates each material. Now, the amount of batch material allocated can be different from the previously confirmed amount. 
+
+image-20260115-031023.png
+Once allocated, users can place order delivery. One of the fields changed its wording. Previously was "Order Taken? Yes/No", now "Shipping Process. Picked/Shipped 
+
+image-20260115-031100.png
+SIHA and SITB will get the latest data by hitting the GET API for SMILE Order data.
+
+In the Allocation/Distribution order type, SIHA and SITB get the latest data by hitting the GET API for the SMILE Order data. There are now updated_from_date and updated_to_date filters to filter the Order list based on the date last updated (updated_at)
 
 ---
 
 ## May 27, 2025
 
-1. Addition of Filter and KFA 92 Data on Stock Opname List 
+[Smile Logistics - Release Version 1.4.1] Download App
 
-2. Change in Progress and Entity Compliance Calculation 
+Feature Updates in this release
+Addition of 92 Filters and Data to the Stock Taking List  Enhancement
 
-3. Stock Opname Dashboard Versioning 
+Changes to Entity Progress and Compliance calculations  Enhancement
+
+Stock Taking Dashboard Versioning Enhancement
+
+Enhancement Feature
+Addition of 92 Filters and Data to the Stock Taking List
+On the Stock Taking List page, users can see the name of the variant or material of the active substance + the strength of each line of data.
+
+image-20260115-033132.png
+Users can also search based on material 92 or 93 by first selecting the KFA Material Level. If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
+
+image-20260115-033203.png
+ 
+
+Changes to Entity Progress and Compliance calculations
+On the Stock Taking Dashboard page, the "Stock Taking Results per Active Substance + Strength Material" tab, there is a change in the formula in calculating the progress of stock taking for each entity. Users can see the rightmost column named "Mandatory Material Progress".
+
+Material progress must contain numerator (top) and denominator (bottom) data. The counter is the amount of material that has been taken stock of the entity in activities related to its materials. The denominator is the amount of material managed by the entity & is required to carry out Stock Taking.
+
+The materials managed by an entity are seen from whether the entity has ever had a transaction with the material or not. Specifically for BMHP Screening activities, materials managed by entities are seen from the relationship between entities and their materials.
+
+image-20260115-033258.png
+On the Entity Compliance tab, users can now see the number of entities that have done stock taking, have not done stock taking, and the total.
+
+An Entity is categorized as "Stock Taking" if it has done Stock Taking on all required materials
+
+Example
+
+Example 1: If a new entity performs stock taking on 31 materials out of the 40 required materials, then this entity is said to have not performed stock taking.
+
+Example 2: If a new entity performs stock taking on 8 of the required 8 materials, then this entity is said to have done stock taking.
+
+Example 3: If an entity has 10 materials that are mandatory Stock Taking. However, the entity performs stock taking on 9 mandatory materials + 2 non-mandatory materials. So, the entity is still categorized as "Not doing stock taking" until all the materials that must be stock taken are taken.
+
+image-20260115-033402.png
+Stock Taking Dashboard Versioning
+All changes in this release are version 2 of the stock taking dashboard.
+
+image-20260115-033852.png
+If there is a need to view the old version, then the user can access it by omitting /v2 from the URL. So, it becomes /dashboard/stock-opname.
+
+image-20260115-033911.png
+ 
 
 ---
 
 ## February 28, 2025
 
-1. Addition of Material Setting for Dengue  
+[Smile Immunization - Release Version 3.8.0] Download App 
+Feature Updates in this release
+Addition of Material Setting for Dengue  New Feature
 
-2. Create Dengue Expenditure Transaction 
+Create Dengue Distribution Transaction  New Feature
+
+New Feature
+Addition of Material Setting for Dengue
+New Features: Users can now add materials with Dengue activities.
+
+Rules:
+
+If the user selects Activity = "Dengue" and Type = "Vaccine" (Yes), then the Need Vaccine Sequence of Dengue field will appear.
+
+This field will always be displayed but in a non-editable state (disabled) to maintain consistency with the Rabies feature.
+
+In the case of Dengue, this field always requires a sequence, so it cannot be changed by the user.
+
+image-20260115-043712.png
+Create Dengue Distribution Transaction
+Transaction Process: 
+
+Select Material:
+
+Expenditure > Entity > Activity > Materials > Select Batch Materials
+
+Data Input:
+
+Patient diagnosis
+
+If diagnosed (Yes) → Fill in the Month & Year
+
+Select the vaccine sequence (Dose I/II)
+
+Total amount (only 1 per transaction)
+
+NIK & reaction after vaccine (Fever, Red Rash, Seizures, Others)
+
+If reaction = Other, an additional field appears for manual input
+
+Patient Data Verification:
+
+Click "Fill in the Form"
+
+If the patient is not yet registered → Navigate to the patient form
+
+If the patient is already → the button changes to "View Forms"
+
+When submitting a transaction:
+
+If Dose II is sent first & there is no Dose I, the system requests Dose I data input first.
+
+Patient Data:
+
+Generated from NIK: Gender, Date of Birth, and Age
+
+User input: Name, Marital Status, Education, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History
+
+image-20260115-043859.png
+image-20260115-043911.png
+
 
 ---
 
 ## October 29, 2024
 
+[SMILE Immunization - Release Version 3.7.6] Download App
+[SMILE Logistics - Release Version 1.3.6] Download App
 
-1. Add Annual Commitment from Ministry of Health to Province 
+Feature Updates in this release
+Annual Commitment from the Ministry of Health to the Province  New Feature
 
-2. Annual Commitment from Ministry of Health to Province Dashboard 
+Annual Commitment Dashboard from the Ministry of Health to the Province  New Feature
 
-3. Temperature Monitoring Dashboard 
+Temperature Monitoring Dashboard New Feature
 
-4. Account Profile Data Change 
+Changes to Account Profile Data Enhancement
 
-5. Force Password Change 
+Force Change Password Enhancement
 
-6. Update Menu Grouping 
+Update Grouping Menu Enhancement
 
-7. Update Rabies Sequence 
+Update Sequence Rabies Enhancement
 
-8. Update Reminder Notification for Rabies Patients 
+Reminder Notification Updates for Rabies Patients Enhancement
 
-9. Update Rabies Dashboard 
+Rabies Dashboard Update Enhancement
 
-10. Formula Adjustment for Stock Availability and Replenishment from Stock Out 
+Adjustment Formula for Stock Availability and Filling from Out of Stock Enhancement
 
-11. iOS Training & Production Logistic 
+iOS Training & Production Logistics Enhancement
 
-12. Center Shipment Update 
+Central Delivery Update Enhancement
+
+New Feature & Enhancement
+Annual Commitment from the Ministry of Health to the Province
+Specific users can add annual commitments per material (for allocations and buffers) in the selected year, based on the contract number and province that has been specified.
+
+image-20260115-045029.png
+Annual Commitment Dashboard from the Ministry of Health to the Province
+Certain users can view the progress dashboard of material realization that has been delivered based on the value of the commitments listed in the contract (for allocation and buffer), both at the national and provincial levels.
+
+image-20260115-045130.png
+Temperature Monitoring Dashboard
+Users can view temperature monitoring chart information that is actively registered and connected to Remote Temperature Monitoring Devices (RTMD) in SMILE.
+
+image-20260115-045230.png
+Changes to Account Profile Data
+Feature changes so that users can change data information such as emails, passwords, and others in their SMILE account independently
+
+image-20260115-045356.png
+Force Change Password
+Feature changes to make it easier for Admins to ask users to change their passwords through the system.
+
+image-20260115-045453.png
+Update Group Menu
+Changes to the navbar menu in Immunization and logistics, previously there were 7 menus, now there are 4 menus
+
+image-20260115-045607.png
+ 
+
+image-20260115-045629.png
+Update Sequence Rabies
+Update on the separation of vaccination types into 3, namely pre-exposure, post-exposure and booster.
+
+Addition of Intra Dermal (ID) & Intra Muscular (IM) methods for post-exposure and booster vaccination types
+
+IM booster sequence changes: day 0 maximum 1 dose, day 3 maximum 1 dose. ID booster method: day 0 = 4 doses, so no booster is needed on day 3. If the ID booster on day 0 is <4 doses, then the booster on day 3 = 1 dose
+
+Dosage filling for PEP vaccine IM method: PEP day 0 dose quantity = 2. If you will fill 1 dose, please use the pre-exposure vaccination type.
+
+image-20260115-050139.png
+Rabies Dashboard Update
+Changing the Sankey diagram to a stacked bar diagram
+
+Additional number of hospital entities in the program coverage section
+
+image-20260115-050248.png
+Adjustment Formula for Stock Availability and Replenishment from Out of Stock
+Formula adjustments for stock availability, replenishment from out of stock and abnormal stock
+
+Formula adjustments for stock availability exports, replenishment from out of stock and abnormal stock
+
+Additional Per Material Entity tab on stock availability, replenishment from out of stock and abnormal stock pages
+
+image-20260115-050335.png
+iOS Training & Production Logistic
+
+iOS Logistics Training is now available on the App Store with the search keyword "SMILE Logistics Training"
+
+iOS Production Logistics is still unlisted, it can be accessed via the following link: Click here
+
+image-20260115-050419.png
+Central Delivery Update
+Additional delivery types include " Regular " (for allocation delivery) and " Central Buffer " (for buffer delivery)
+
+Addition of Contract Number column
+
+image-20260115-050553.png
 
 ---
 
 ## September 20, 2024
-1. Update process for adding stock opname 
+[SMILE Immunization - Release Version 3.7.5] Download Application
+[SMILE Logistics - Release Version 1.3.3] Download Application
 
-2. View recap of stock opname process for a specific period 
+Feature Updates in this release
+Update the flow to add stock taking Enhancement
 
-3. Download stock book report based on province, district/city, health center, and entity for the required period 
+View the recapitulation of the stock taking process for each specific period Enhancement
+
+Download stock book reports by province, district/city, health center and entity for the required period Enhancement
+
+Enhancement Feature
+Update the flow to add stock taking
+Updating the flow of adding stock take so that users can focus on materials, not on activities and users can get markers for which materials have been stock taken.
+
+image-20260115-051208.png
+View the recapitulation of the stock taking process for each specific period
+Users can view and download a summary of the stocktaking process for each specific period.
+
+image-20260115-051257.png
+Download stock book reports by province, district/city, health center and entity for the required period
+Users can download material stock reports based on province, district/city, health center and entity for the required period.
+
+image-20260115-051444.png
 
 ---
 
 ## August 2, 2024
+[SMILE Immunization - Release Version 3.7.4] Download Application
 
-1. Perform confirmation to stop Rabies Vaccination notifications 
+Feature Updates in this release
+Confirm to stop the Rabies Vaccination notification New Feature
 
-2. View assets with more than one temperature range and capacity 
+View assets that have more than one temperature range and capacity New Feature
+
+New Feature
+Confirm to stop the Rabies Vaccination notification
+Users can confirm to stop the Rabies Vaccination notification.
+
+image-20260115-051915.png
+View assets that have more than one temperature range and capacity
+Users can view Assets that have more than one Temperature Range and Capacity, such as Freezers and Vaccine Refrigerators.
+
+image-20260115-054652.png
+ 
+
 
 ---
 
 ## July 22, 2024
 
-1. Perform rabies vaccine expenditure with prevention type 
+[SMILE Immunization - Release Version 3.7.2] Download Application
+[SMILE Logistics - Release Version 1.3.1] Download Application
 
-2. Change cold chain temperature limit and view logger activity history 
+Feature Updates in this release
+Distribution rabies vaccines with a pre-exposure type  New Feature
+
+Change the cold chain temperature limit and view the logger activity history  New Feature
+
+New Feature
+Distribution rabies vaccines with a pre-exposure type
+Carrying out rabies vaccine distribution with pre-exposure types consisting of Intra-Muscular and Intra Dermal.
+
+image-20260115-054932.png
+Change the cold chain temperature limit and view the logger activity history
+Change cold chain temperature limits and view logger activity history by displaying cold chain status and temperature limits.
+
+image-20260115-055148.png
 
 ---
 
 ## July 9, 2024
+[SMILE Logistics - Release Version 1.3.0] Download the Application
 
-1. View stock with KFA level 
+Feature Updates in this release
+View stocks with KFA levels  New Feature
 
-2. Order material with KFA level 
+Create material orders with KFA levels  New Feature
 
-3. View Stock Dashboard with KFA level 
+View the Stock Dashboard with KFA levels  New Feature
+
+New Feature
+View stocks with KFA levels
+View the stock of material level Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
+
+image-20260115-055444.png
+Create material orders with KFA levels
+Create material orders with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
+
+image-20260115-055444.png
+View the stock dashboard with KFA levels
+View the stock dashboard with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93).
+
+image-20260115-055708.png
+SMILE 3.0 - June 13rd, 2024
 
 ---
 
 ## June 13, 2024
-1. View Coldchain Capacity with capacity projection 
+[SMILE Immunization - Release Version 3.7.1]
 
-2. View Capacity for Annual Planning 
+Feature Updates in this release
+View Coldchain Capacity with capacity projections  New Feature
 
-3. View Coldchain Capacity Projection in Order 
+View Capacity for Annual Planning  New Feature
+
+View Coldchain Capacity Projections in Orders  New Feature
+
+New Feature
+View Coldchain Capacity with capacity projections
+Added coldchain capacity projections related to maximum data of each stock
+
+image-20260115-055943.png
+View Capacity for Annual Planning
+Comparing the actual cold chain with the total needs from the annual planning.
+
+image-20260115-060030.png
+View Coldchain Capacity Projections in Orders
+Added coldchain capacity projections in order details to inform users about the estimated capacity used once the order is fulfilled.
+
+image-20260115-060116.png
+SMILE 3.0 - March 15th, 2024
 
 ---
 
 ## March 15, 2024
 
+[SMILE Immunization - Release Version 3.6.3]
 
-1. View SMILE vs SMDV Dashboard 
+Feature Updates in this release
+View the SMILE vs SMDV Dashboard  New Feature
 
-2. Perform Asset Inventory in SMILE Logistic 
+Asset Inventory at SMILE Logistic  New Feature
 
-3. Update flow for performing stock opname in SMILE Immunization 
+Update the flow of stock taking at SMILE Immunization  Enhancement
 
-4. Update Rabies/VAR expenditure feature in SMILE Immunization 
+Update the Rabies/VAR distribution feature in SMILE Immunization Enhancement
 
-5. View Asset Inventory Dashboard in SMILE Immunization 
+View the Asset Inventory Dashboard in SMILE Immunization New Feature
 
-6. View Stock Dashboard in SMILE Immunization and Logistic 
+View the Stock Dashboard on SMILE Immunization and Logistics New Feature
 
-7. Addition of Stock Opname Dashboard tab for Ministry of Health in SMILE Immunization 
+Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization Enhancement
+
+New Feature & Enhancement
+View the SMILE vs SMDV Dashboard
+Seeing the difference in stock comparison data in smile with the stock comparison in biofarma's shipments for immunization vaccines.
+
+image-20260115-060539.png
+Asset Inventory at SMILE Logistic
+
+Adding an inventory of assets contained in each entity  in SMILE Logistics both via the Mobile and Web applications
+
+image-20260115-060631.png
+ 
+
+image-20260115-060637.png
+ 
+
+image-20260115-060644.png
+ 
+
+Update the flow of stock taking at SMILE Immunization
+Flow update for doing stock taking without selecting activities
+
+image-20260115-060723.png
+Update the Rabies/VAR distribution feature in SMILE Immunization
+Add NIK/Non NIK and the date of the rabies vaccination sequence
+
+image-20260115-060808.png
+ 
+
+image-20260115-060813.png
+ 
+
+image-20260115-060819.png
+ 
+
+View the Asset Inventory Dashboard in SMILE Immunization
+New dashboard showing asset inventory input results
+
+image-20260115-060923.png
+View the Stock Dashboard on SMILE Immunization and Logistics
+New dashboard showing summary of remaining stock & stock not received
+
+image-20260115-061002.png
+Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization
+Dynamic data feature for the Ministry of Health on the Stock Taking Dashboard
+
+image-20260115-061052.png
+
 
 ---
 
 ## February 7, 2024
 
-1. View Transaction Monitoring Dashboard in SMILE Logistic 
+[SMILE Immunization - Release Version 3.6.0]
 
-2. Perform allocation and shipment according to activity flow settings 
+Feature Updates in this release
+View the Transaction Monitoring Dashboard on SMILE Logistics  New Feature
 
-3. Download Request Letter, Confirmation Note, and Batch Note documents in the Order detail menu 
+Allocated and Shipped in accordance with activity flow activities Enhancement
+
+Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu  New Feature
+
+New Feature & Enhancement
+View the Transaction Monitoring Dashboard on SMILE Logistics
+New dashboard showing a summary of consumption transactions
+
+Allocated and Shipped in accordance with activity flow activities
+Dynamic allocation and shipped features based on activities
+
+Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu
+Adding supporting documents to the order
