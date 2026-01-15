@@ -53,6 +53,10 @@ This column is available on Create Budget Source, Edit Budget Source, Budget Sou
 ![Detail Sumber Anggaran](images/1.1.png)
 
 
+## Add Stock Transactions with Restricted Budget Sources 
+In the add stock transactions, the system displays information on the status of each budget source. Budget sources with limited (restricted) information cannot be selected to proceed with the add stock transaction. 
+
+
 ---
 
 ### SMILE 5.0 -- November 19, 2025
