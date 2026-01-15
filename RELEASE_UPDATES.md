@@ -433,87 +433,78 @@ The "Annual Commitment vs Realization" feature monitors the achievement in quant
 
 ## June 18, 2025
 
-[Smile Logistics - Release Version 1.4.1] Download App
+#### [Smile Logistics - Release Version 1.4.1] Download App
 
-Feature Updates in this release
-Addition of 92 Filters and Data to the Transaction Monitoring Dashboard  Enhancement
+### Feature Updates in this release
+- Addition of 92 Filters and Data to the Transaction Monitoring Dashboard  *Enhancement*
+- Notification of Expired Material in 60 and 90 days  *Enhancement*
+- Maintenance, Calibration, and Warranty Information on Asset Inventory *Enhancement*
+- Order Integration with SIHA and SITB *New Feature*
 
-Notification of Expired Material in 60 and 90 days  Enhancement
-
-Maintenance, Calibration, and Warranty Information on Asset Inventory Enhancement
-
-Order Integration with SIHA and SITB New Feature
-
-New Feature & Enhancement
-Addition of 92 Filters and Data to the Transaction Monitoring Dashboard
+### New Feature & Enhancement
+- Addition of 92 Filters and Data to the Transaction Monitoring Dashboard
 On the Transaction Monitoring List page of the Complete Entity tab, users can now view the parent material data (KFA 92) of each transaction in the table.
 
-image-20260115-025249.png
+![Image](images/6.1.png)
  
 
-In addition, now users can also filter the Transaction Monitoring Dashboard data based on the level of the KFA Material.
+- In addition, now users can also filter the Transaction Monitoring Dashboard data based on the level of the KFA Material.
 
-image-20260115-025335.png
-If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
+![Image](images/6.2.png)
+- If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
 
-image-20260115-025403.png
-In addition, the material grouping data on the Consumption Per Material chart also follows the selected KFA Filter.
+![Image](images/6.3.png)
+- In addition, the material grouping data on the Consumption Per Material chart also follows the selected KFA Filter.
 
-image-20260115-025435.png
-Notification of Expired Material in 60 and 90 days
+![Image](images/6.4.png)
+### Notification of Expired Material in 60 and 90 days
 Previously, notifications for materials that were close to expiration were sent on the 30th, 14th, 10th, 3rd, and 1st day before the expiration date. Now, notifications will also be sent 60 and 90 days before the material expires.
 
-image-20260115-025553.png
-Maintenance, Calibration, and Warranty Information on Asset Inventory
-Currently users can record the following information:
+![Image](images/6.5.png)
+### Maintenance, Calibration, and Warranty Information on Asset Inventory
+- Currently users can record the following information:
+  - Warranty start and end dates
+  - Last date of maintenance
+  - Maintenance time interval
+  - Last calibration date
+  - Calibration time interval
 
-Warranty start and end dates
-
-Last date of maintenance
-
-Maintenance time interval
-
-Last calibration date
-
-Calibration time interval
-
-image-20260115-025701.png
+![Image](images/6.6.png)
  
 
-unduhan-20260115-025807.jpg
-Based on the last date of maintenance and the specified interval, the system will send a notification reminding you of the next maintenance schedule on D-1.
+![Image](images/6.7.png)
+- Based on the last date of maintenance and the specified interval, the system will send a notification reminding you of the next maintenance schedule on D-1.
 
-image-20260115-030004.png
-image-20260115-030026.png
-Based on the last calibration date and the specified interval, the system will send a reminder notification of the next calibration schedule on D-1.
+![Image](images/6.8.png)
+![Image](images/6.9.png)
+- Based on the last calibration date and the specified interval, the system will send a reminder notification of the next calibration schedule on D-1.
 
-image-20260115-030101.png
-image-20260115-030113.png
-Order Integration with SIHA and SITB
-In the integration of SMILE with the HIV AIDS INFORMATION SYSTEM (SIHA) and the Tuberculosis Information System (SITB), the process begins with SIHA or SITB making a request to the SMILE API to make an order. The status of the Order made will be a Draft 
+![Image](images/6.10.png)
+![Image](images/6.11.png)
+### Order Integration with SIHA and SITB
+- In the integration of SMILE with the HIV AIDS INFORMATION SYSTEM (SIHA) and the Tuberculosis Information System (SITB), the process begins with SIHA or SITB making a request to the SMILE API to make an order. The status of the Order made will be a Draft 
 
-image-20260115-030521.png
-SMILE users validate by entering the validated amount for each material. Then click Save Submit Validation. 
+![Image](images/6.12.png)
+- SMILE users validate by entering the validated amount for each material. Then click Save Submit Validation. 
 
-image-20260115-030607.png
-SMILE users can enter a mail number and a message (if applicable). Then click Submit. 
+![Image](images/6.13.png)
+- SMILE users can enter a mail number and a message (if applicable). Then click Submit. 
 
-image-20260115-030910.png
-Orders on SMILE change to Pending. In addition, SMILE also sent information to SIHA and SITB that the order had been validated. 
+![Image](images/6.14.png)
+- Orders on SMILE change to Pending. In addition, SMILE also sent information to SIHA and SITB that the order had been validated. 
 
-image-20260115-030939.png
-Ideally, the confirmation process is carried out from SIHA and SITB, then sends data to SMILE through the API that has been provided to change its status to "Confirmed". 
+![Image](images/6.15.png)
+- Ideally, the confirmation process is carried out from SIHA and SITB, then sends data to SMILE through the API that has been provided to change its status to "Confirmed". 
 
-image-20260115-031001.png
-The user allocates each material. Now, the amount of batch material allocated can be different from the previously confirmed amount. 
+![Image](images/6.16.png)
+- The user allocates each material. Now, the amount of batch material allocated can be different from the previously confirmed amount. 
 
-image-20260115-031023.png
-Once allocated, users can place order delivery. One of the fields changed its wording. Previously was "Order Taken? Yes/No", now "Shipping Process. Picked/Shipped 
+![Image](images/6.17.png)
+- Once allocated, users can place order delivery. One of the fields changed its wording. Previously was "Order Taken? Yes/No", now "Shipping Process. Picked/Shipped 
 
-image-20260115-031100.png
-SIHA and SITB will get the latest data by hitting the GET API for SMILE Order data.
-
-In the Allocation/Distribution order type, SIHA and SITB get the latest data by hitting the GET API for the SMILE Order data. There are now updated_from_date and updated_to_date filters to filter the Order list based on the date last updated (updated_at)
+![Image](images/6.18.png)
+- SIHA and SITB will get the latest data by hitting the GET API for SMILE Order data.
+- In the Allocation/Distribution order type, SIHA and SITB get the latest data by hitting the GET API for the SMILE Order data. There are now updated_from_date and updated_to_date filters to filter the Order list based on the date last updated (updated_at)
 
 ---
 
