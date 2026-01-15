@@ -26,14 +26,31 @@ This document provides information on the enhancement and update features of **S
 ## Page Contents
 
 ### SMILE 5.0 -- December 23, 2025 
+[SMILE 5.0 - Release Version 5.1.2] [Download Application Android Version](https://play.google.com/store/apps/details?hl=id&id=com.logistikimunisasi.mobile) 
 
-#### Enhancement
+[SMILE 5.0 - Release Version 5.1.2] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
 
-1. Restricted Budget Source Usage in Global Setting 
+[SMILE 5.0 - Release Version 5.1.2] [SMILE Web](https://smile.kemkes.go.id/)
 
-2. Increase Stock Transaction with Restricted Budget Source 
+## Summary of the Feature Updates in this release
 
-3. Decrease Stock Transaction with Restricted Budget Source 
+- **Restricted Usage of Budget Sources in Global Settings** *Enhancement*  
+  Super Admins can now create or change budget sources by specifying the use of budget sources, which are **restricted** or **unrestricted** according to needs.
+
+- **Add Stock Transactions with Restricted Budget Sources** *Enhancement*  
+  When create add stock transactions, users can see a list of budget sources along with limited or unlimited information. Budget sources with **restricted** information cannot be selected for transactions.
+
+- **Reduce Stock Transactions with Restricted Budget Sources** *Enhancement*  
+  Users cannot create reduce stock transactions if they use **restricted budget** sources.
+
+### Enhancement Features
+
+## Restricted Usage of Budget Sources in Global Settings
+
+This update adds a **Restricted Usage** column to the budget source in Global Settings, allowing Super Admins to determine whether a budget source is **restricted** or **unrestricted** as needed.
+This column is available on Create Budget Source, Edit Budget Source, Budget Source Detail page, Budget Source Detail in Program Settings.
+![Detail Sumber Anggaran](images/detail-sumber-anggaran.png)
+
 
 ---
 
