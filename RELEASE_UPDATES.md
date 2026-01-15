@@ -316,11 +316,9 @@ This transformation is a strategic step to present a SMILE application that is m
 
  ### New Features and Enhancement
 
-#### Program Homepage
-
-#### Relocation Feature 
-
-#### Stock Transfer Feature 
+- Homepage Program
+- Relocation Feature
+- Stock Transfer Feature 
 
 ### New Features
 #### Homepage Program 
@@ -353,8 +351,7 @@ The stock transfer feature is accessed through the Inventory > Stock Transfer me
 
 ## August 15, 2025
 ### Feature Updates in this release
-
-Annual Commitment vs Realization v2 Dashboard *Enhancement*
+- Annual Commitment vs Realization v2 Dashboard *Enhancement*
 
 ### Enhancement Features
 
