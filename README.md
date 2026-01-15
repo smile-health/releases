@@ -1,7 +1,7 @@
 # SMILEstone  
 
 ## About
-This document purpose to provide SMILE development and expansion for the coverage of the health program.
+This document outlines the development and expansion of SMILE to support broader health program coverage.
 
 ![SMILEstone 2018 - 2022](images/smilestone-2018-2022.png)
 
