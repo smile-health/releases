@@ -49,7 +49,7 @@ This document provides information on the enhancement and update features of **S
 
 This update adds a **Restricted Usage** column to the budget source in Global Settings, allowing Super Admins to determine whether a budget source is **restricted** or **unrestricted** as needed.
 This column is available on Create Budget Source, Edit Budget Source, Budget Source Detail page, Budget Source Detail in Program Settings.
-![Detail Sumber Anggaran](images/detail-sumber-anggaran.png)
+![Detail Sumber Anggaran](images/1.1.png)
 
 
 ---
