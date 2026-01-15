@@ -259,6 +259,40 @@ The Relocation between Program feature is used to move materials from one progra
   - Remove of the mandatory SO marker;
   - Addition of a confirmation pop-up before submitting stock taking data. The system will automatically fill in any unentered stock values (stock 0) as 0 before the data is submitted.
 
+![Image](images/2.26.webp)
+![Image](images/2.27.webp)
+
+
+### Order Response Time Dashboard
+The Order Response Time Dashboard displays a summary of information related to the duration of the order process, from the time the order was placed to being received by the customer. This feature helps monitor service performance and order handling speed by material, entity, and region.
+
+![Image](images/2.28.webp)
+
+### Order Difference Dashboard
+The Order Difference Dashboard displays a summary of the quantity or dosage amount information at each stage of the order process, from the time the order is placed to being received by the customer. Through this dashboard, users can quickly monitor and compare differences in quantity/dosage by material, entity, or region.
+
+![Image](images/2.29.webp)
+
+### Reception & Distribution Dashboard
+The Reception & Distribution Dashboard displays a summary of the information of the quantity received by the entity as well as the quantity distributed by the entity. Through this dashboard, users can monitor and compare the movements of incoming stock (all types of receipts) and outbound stock (including distribution, transfer to other entities, returns, and final distributions) by material, entity, or region.
+
+![Image](images/2.30.webp)
+
+### Abnormal Stock Dashboard
+The Abnormal Stock Dashboard displays a summary of the abnormal material stock conditions of each transaction on an entity in a given period. Through this dashboard, users can monitor the number of abnormal stock events of each transaction and the total number of abnormal event days in a given period in real time based on the material, entity, or region.
+
+![Image](images/2.31.webp)
+
+### Add/Remove Stock Dashboard
+The Add/Remove Stock Dashboard displays a summary of the amount of material stock each transaction of adding and decreasing stock on an entity in a given period. Through this dashboard, users can monitor the amount of material stock from the add stock transaction and reduce stock in real terms based on the material, entity, or region.
+
+![Image](images/2.32.webp)
+
+### Discard Dashboard
+The Discard Dashboard displays a summary of the total accumulated quantity/amount of stock in a disposal transaction for each reason on an entity in a given period. Through this dashboard, users can monitor the total discharge stock in real time by material, entity, or region.
+
+![Image](images/2.33.webp)
+
 ---
 
 ## SMILE 5.0 - New🌟
