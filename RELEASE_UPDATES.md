@@ -600,33 +600,22 @@ image-20260115-043911.png
 #### [SMILE Immunization - Release Version 3.7.6] Download App
 #### [SMILE Logistics - Release Version 1.3.6] Download App
 
-Feature Updates in this release
-Annual Commitment from the Ministry of Health to the Province  New Feature
+### Feature Updates in this release
+- Annual Commitment from the Ministry of Health to the Province  *New Feature*
+- Annual Commitment Dashboard from the Ministry of Health to the Province  *New Feature*
+- Temperature Monitoring Dashboard *New Feature*
+- Changes to Account Profile Data *Enhancement*
+- Force Change Password *Enhancement*
+- Update Grouping Menu *Enhancement*
+- Update Sequence Rabies *Enhancement*
+- Reminder Notification Updates for Rabies Patients *Enhancement*
+- Rabies Dashboard Update *Enhancement*
+- Adjustment Formula for Stock Availability and Filling from Out of Stock *Enhancement*
+- iOS Training & Production Logistics *Enhancement*
+- Central Delivery Update *Enhancement*
 
-Annual Commitment Dashboard from the Ministry of Health to the Province  New Feature
-
-Temperature Monitoring Dashboard New Feature
-
-Changes to Account Profile Data Enhancement
-
-Force Change Password Enhancement
-
-Update Grouping Menu Enhancement
-
-Update Sequence Rabies Enhancement
-
-Reminder Notification Updates for Rabies Patients Enhancement
-
-Rabies Dashboard Update Enhancement
-
-Adjustment Formula for Stock Availability and Filling from Out of Stock Enhancement
-
-iOS Training & Production Logistics Enhancement
-
-Central Delivery Update Enhancement
-
-New Feature & Enhancement
-Annual Commitment from the Ministry of Health to the Province
+### New Feature & Enhancement
+####Annual Commitment from the Ministry of Health to the Province
 Specific users can add annual commitments per material (for allocations and buffers) in the selected year, based on the contract number and province that has been specified.
 
 image-20260115-045029.png
@@ -697,14 +686,12 @@ image-20260115-050553.png
 #### [SMILE Immunization - Release Version 3.7.5] Download Application
 #### [SMILE Logistics - Release Version 1.3.3] Download Application
 
-Feature Updates in this release
-Update the flow to add stock taking Enhancement
+### Feature Updates in this release
+- Update the flow to add stock taking *Enhancement*
+- View the recapitulation of the stock taking process for each specific period *Enhancement*
+- Download stock book reports by province, district/city, health center and entity for the required period *Enhancement*
 
-View the recapitulation of the stock taking process for each specific period Enhancement
-
-Download stock book reports by province, district/city, health center and entity for the required period Enhancement
-
-Enhancement Feature
+### Enhancement Feature
 Update the flow to add stock taking
 Updating the flow of adding stock take so that users can focus on materials, not on activities and users can get markers for which materials have been stock taken.
 
@@ -721,14 +708,13 @@ image-20260115-051444.png
 ---
 
 ## August 2, 2024
-[SMILE Immunization - Release Version 3.7.4] Download Application
+#### [SMILE Immunization - Release Version 3.7.4] Download Application
 
-Feature Updates in this release
-Confirm to stop the Rabies Vaccination notification New Feature
+### Feature Updates in this release
+- Confirm to stop the Rabies Vaccination notification *New Feature*
+- View assets that have more than one temperature range and capacity *New Feature*
 
-View assets that have more than one temperature range and capacity New Feature
-
-New Feature
+### New Feature
 Confirm to stop the Rabies Vaccination notification
 Users can confirm to stop the Rabies Vaccination notification.
 
@@ -744,15 +730,14 @@ image-20260115-054652.png
 
 ## July 22, 2024
 
-[SMILE Immunization - Release Version 3.7.2] Download Application
-[SMILE Logistics - Release Version 1.3.1] Download Application
+#### [SMILE Immunization - Release Version 3.7.2] Download Application
+#### [SMILE Logistics - Release Version 1.3.1] Download Application
 
-Feature Updates in this release
-Distribution rabies vaccines with a pre-exposure type  New Feature
+### Feature Updates in this release
+- Distribution rabies vaccines with a pre-exposure type  *New Feature*
+- Change the cold chain temperature limit and view the logger activity history  *New Feature*
 
-Change the cold chain temperature limit and view the logger activity history  New Feature
-
-New Feature
+### New Feature
 Distribution rabies vaccines with a pre-exposure type
 Carrying out rabies vaccine distribution with pre-exposure types consisting of Intra-Muscular and Intra Dermal.
 
@@ -765,16 +750,14 @@ image-20260115-055148.png
 ---
 
 ## July 9, 2024
-[SMILE Logistics - Release Version 1.3.0] Download the Application
+#### [SMILE Logistics - Release Version 1.3.0] Download the Application
 
-Feature Updates in this release
-View stocks with KFA levels  New Feature
+### Feature Updates in this release
+- View stocks with KFA levels  *New Feature*
+- Create material orders with KFA levels  *New Feature*
+- View the Stock Dashboard with KFA levels  *New Feature*
 
-Create material orders with KFA levels  New Feature
-
-View the Stock Dashboard with KFA levels  New Feature
-
-New Feature
+### New Feature
 View stocks with KFA levels
 View the stock of material level Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
@@ -792,16 +775,14 @@ SMILE 3.0 - June 13rd, 2024
 ---
 
 ## June 13, 2024
-[SMILE Immunization - Release Version 3.7.1]
+#### [SMILE Immunization - Release Version 3.7.1]
 
-Feature Updates in this release
-View Coldchain Capacity with capacity projections  New Feature
+### Feature Updates in this release
+- View Coldchain Capacity with capacity projections  *New Feature*
+- View Capacity for Annual Planning  *New Feature*
+- View Coldchain Capacity Projections in Orders  *New Feature*
 
-View Capacity for Annual Planning  New Feature
-
-View Coldchain Capacity Projections in Orders  New Feature
-
-New Feature
+### New Feature
 View Coldchain Capacity with capacity projections
 Added coldchain capacity projections related to maximum data of each stock
 
@@ -820,29 +801,23 @@ SMILE 3.0 - March 15th, 2024
 
 ## March 15, 2024
 
-[SMILE Immunization - Release Version 3.6.3]
+#### [SMILE Immunization - Release Version 3.6.3]
 
-Feature Updates in this release
-View the SMILE vs SMDV Dashboard  New Feature
+### Feature Updates in this release
+- View the SMILE vs SMDV Dashboard  *New Feature*
+- Asset Inventory at SMILE Logistic  *New Feature*
+- Update the flow of stock taking at SMILE Immunization  *Enhancement*
+- Update the Rabies/VAR distribution feature in SMILE Immunization *Enhancement*
+- View the Asset Inventory Dashboard in SMILE Immunization *New Feature*
+- View the Stock Dashboard on SMILE Immunization and Logistics *New Feature*
+- Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization *Enhancement*
 
-Asset Inventory at SMILE Logistic  New Feature
-
-Update the flow of stock taking at SMILE Immunization  Enhancement
-
-Update the Rabies/VAR distribution feature in SMILE Immunization Enhancement
-
-View the Asset Inventory Dashboard in SMILE Immunization New Feature
-
-View the Stock Dashboard on SMILE Immunization and Logistics New Feature
-
-Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization Enhancement
-
-New Feature & Enhancement
-View the SMILE vs SMDV Dashboard
+### New Feature & Enhancement
+#### View the SMILE vs SMDV Dashboard
 Seeing the difference in stock comparison data in smile with the stock comparison in biofarma's shipments for immunization vaccines.
 
 image-20260115-060539.png
-Asset Inventory at SMILE Logistic
+#### Asset Inventory at SMILE Logistic
 
 Adding an inventory of assets contained in each entity  in SMILE Logistics both via the Mobile and Web applications
 
@@ -855,11 +830,11 @@ image-20260115-060637.png
 image-20260115-060644.png
  
 
-Update the flow of stock taking at SMILE Immunization
+#### Update the flow of stock taking at SMILE Immunization
 Flow update for doing stock taking without selecting activities
 
 image-20260115-060723.png
-Update the Rabies/VAR distribution feature in SMILE Immunization
+#### Update the Rabies/VAR distribution feature in SMILE Immunization
 Add NIK/Non NIK and the date of the rabies vaccination sequence
 
 image-20260115-060808.png
@@ -871,15 +846,15 @@ image-20260115-060813.png
 image-20260115-060819.png
  
 
-View the Asset Inventory Dashboard in SMILE Immunization
+#### View the Asset Inventory Dashboard in SMILE Immunization
 New dashboard showing asset inventory input results
 
 image-20260115-060923.png
-View the Stock Dashboard on SMILE Immunization and Logistics
+#### View the Stock Dashboard on SMILE Immunization and Logistics
 New dashboard showing summary of remaining stock & stock not received
 
 image-20260115-061002.png
-Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization
+#### Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization
 Dynamic data feature for the Ministry of Health on the Stock Taking Dashboard
 
 image-20260115-061052.png
@@ -889,21 +864,19 @@ image-20260115-061052.png
 
 ## February 7, 2024
 
-[SMILE Immunization - Release Version 3.6.0]
+#### [SMILE Immunization - Release Version 3.6.0]
 
-Feature Updates in this release
-View the Transaction Monitoring Dashboard on SMILE Logistics  New Feature
+### Feature Updates in this release
+- View the Transaction Monitoring Dashboard on SMILE Logistics  *New Feature*
+- Allocated and Shipped in accordance with activity flow activities *Enhancement*
+- Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu  *New Feature*
 
-Allocated and Shipped in accordance with activity flow activities Enhancement
-
-Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu  New Feature
-
-New Feature & Enhancement
-View the Transaction Monitoring Dashboard on SMILE Logistics
+### New Feature & Enhancement
+#### View the Transaction Monitoring Dashboard on SMILE Logistics
 New dashboard showing a summary of consumption transactions
 
-Allocated and Shipped in accordance with activity flow activities
+#### Allocated and Shipped in accordance with activity flow activities
 Dynamic allocation and shipped features based on activities
 
-Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu
+#### Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu
 Adding supporting documents to the order
