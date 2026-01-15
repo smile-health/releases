@@ -149,10 +149,115 @@ An update from the previous one, namely an update to the wording or terminology 
 | Batch Notes                  | Allocation Notes             | Web             |
 | Return of Health Facilities  | Return of Last Mile          | Web & Mobile    |
 
-![Image](images/2.1.png)
+![Image](images/2.1.webp)
+![Image](images/2.2.webp)
+![Image](images/2.3.webp) ![Image](images/2.4.webp)
 
 
+### Navbar Navigation Menu Enhancement
+The update from the previous was that the old navbar menu only had 3 main menus. The new navbar menu now has 5 main menus, with feature grouping based on relevant categories.
 
+![Image](images/2.5.webp)
+![Image](images/2.6.webp) 
+
+> ℹ️ To see the mapping of the appearance of the **old navbar menu** and the **new navbar menu**, please refer to the **Quick Guide**.
+
+### Notification Enhancement
+The update from the previous version is the addition of a notification feature to showed the scheduling of assets (asset status, asset warranty, asset calibration, asset maintenance and asset temperature excursion), normal stock and inactive entities. In addition, updates feature notifications appear via device and email. 
+
+#### Application
+Here are the notification type updates in SMILE 5.0:
+| No. | Notification Type                   | When to Get Notification                                                                 |
+|-----|-------------------------------------|------------------------------------------------------------------------------------------|
+| 1   | Asset Status is Changed             | Assets have been updated in asset status                                                 |
+| 2   | Asset Warranty Reminder             | Asset warranty past the warranty date                                                    |
+| 3   | Asset Calibration Reminder          | Asset calibration will expire in 1, 7, or 14 days<br>Schedule the calibration of upcoming assets before 1, 3, 7, or 14 days |
+| 4   | Asset Maintenance Reminder          | Asset maintenance will expire in 1, 7, or 14 days<br>Upcoming asset maintenance schedule before 1, 3, 7, or 14 days |
+| 5   | Inactive Entity                     | Entity does not transact/consume for 7, 14, 21 to 60 days                                |
+| 6   | Stock Levels Returned to Normal     | Material stocks are between the minimum and maximum limits                               |
+| 7   | Temperature Excursion               | Asset temperature below the minimum limit for 1 hour non-stop<br>Asset temperature above the maximum limit for 8 hours non-stop. |
+
+
+![Image](images/2.7.webp) 
+![Image](images/2.8.webp) 
+![Image](images/2.9.webp) 
+
+> ℹ️ The asset status change notification, asset calibration reminder, asset warranty reminder, asset maintenance reminder and temperature excursion do not display the program type because the asset is global and the asset can have more than 1 program.
+
+### Email
+Users can receive and view a summary of notifications via email at daily times.
+> ⚠️ Users who are not selected (checked) to receive a daily recap email will not receive a daily summary email.
+
+![Image](images/2.10.webp)
+The types of notifications that users will get via email consist of:
+| No. | Notification Type                   |
+|-----|-------------------------------------|
+| 1   | Zero Stock                          |
+| 2   | Less Stock                          |
+| 3   | Expired Material                    |
+| 4   | Order Shipped                       |
+| 5   | Inactive Entity                     |
+| 6   | Asset Status is Changed             |
+| 7   | Asset Warranty Reminder             |
+| 8   | Asset Calibration Reminder          |
+| 9   | Asset Maintenance Reminder          |
+| 10  | Stock Levels Returned to Normal     |
+
+
+### Global Setting - Assets
+The Asset Type, Asset Model, and Asset Vendor Data Master are now merged into one new menu tab in Global Settings and are no longer available in Program Settings. In addition, the Communication Provider Master Data has also been merged into the Asset Vendor Master Data to centralize the management of service provider data.
+![Image](images/2.11.webp)
+
+### Global Setting - Assets - PQS Code
+The PQS Code Master Data feature serves as a standard set by the WHO for assets related to temperature storage. This feature includes adding, changing, viewing details, and exporting PQS Code.
+![Image](images/2.12.webp)
+
+### Global Setting - Material - Material Volume Packaging
+The PQS Code Master Data feature serves as a standard set by the WHO for assets related to temperature storage. This feature includes adding, changing, viewing details, and exporting PQS Code.
+![Image](images/2.13.webp)
+
+### Asset Inventory
+The Asset Inventory feature in the program is moved to a separate sub-menu under Asset Management, along with two new features: Monitoring Device Inventory and Storage Temperature Monitoring.
+![Image](images/2.14.webp)
+![Image](images/2.15.webp)
+![Image](images/2.15.1.png)
+![Image](images/2.16.webp)
+![Image](images/2.16.1.png)
+
+### Monitoring Device Inventory
+The Monitoring Device Inventory feature serves as a temperature monitoring tool information management center that is part of asset management. This feature includes adding, changing, viewing details, and exporting monitoring device within SMILE.
+
+![Image](images/2.17.webp)
+![Image](images/2.18.webp)
+
+### Storage Temperature Monitoring
+The Storage Temperature Monitoring feature functions as a temperature monitoring center for assets that have a relationship with monitoring devices. This feature includes viewing details, and exporting asset on storage temperature within SMILE.
+
+![Image](images/2.19.webp)
+![Image](images/2.19.1.png)
+![Image](images/2.19.2.png)
+
+
+### Disposal Instructions
+The Disposal Instructions feature serves to record material disposal instructions carried out by the entity and will then be processed through the Waste Management System (WMS).
+
+The Disposal Instructions menu will appear and be accessible if the entity assigned by the user is already registered in the Waste Management program. If the user entity is not yet registered to the WMS module, then the menu displayed is Self-Destruction.
+![Image](images/2.20_disposal.webp)
+![Image](images/2.21.webp)
+![Image](images/2.22.webp)
+![Image](images/2.23.webp)
+
+
+### Relocation between Program
+The Relocation between Program feature is used to move materials from one program to another within the same entity. This feature is equipped with acknowledgement in the form of a checkbox that must be filled in as confirmation that the material transfer has been known by the destination program.
+![Image](images/2.24.webp)
+![Image](images/2.25.webp)
+
+### Stock Taking
+- Improvements to the add stock taking process include:
+  - Sorting materials based on the highest stock quantity;
+  - Remove of the mandatory SO marker;
+  - Addition of a confirmation pop-up before submitting stock taking data. The system will automatically fill in any unentered stock values (stock 0) as 0 before the data is submitted.
 
 ---
 
