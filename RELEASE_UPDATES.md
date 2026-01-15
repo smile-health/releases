@@ -6,20 +6,20 @@ This document provides information on the enhancement and update features of **S
 ---
 
 ## Table Of Content
-- [SMILE 5.0 -- December 23, 2025](#smile-50----december-23-2025)
-- [SMILE 5.0 -- November 19, 2025](#smile-50----november-19-2025)
-- [SMILE 5.0 -- August 15, 2025](#smile-50----august-15-2025)
-- [SMILE 5.0 -- July 16, 2025](#smile-50----july-16-2025)
-- [SMILE 5.0 -- June 18, 2025](#smile-50----june-18-2025)
-- [SMILE 5.0 -- May 27, 2025](#smile-50----may-27-2025)
-- [SMILE 5.0 -- February 28, 2025](#smile-50----february-28-2025)
-- [SMILE 5.0 -- October 29, 2024](#smile-50----october-29-2024)
-- [SMILE 5.0 -- September 20, 2024](#smile-50----september-20-2024)
-- [SMILE 5.0 -- August 2, 2024](#smile-50----august-2-2024)
-- [SMILE 5.0 -- July 22, 2024](#smile-50----july-22-2024)
-- [SMILE 5.0 -- July 9, 2024](#smile-50----july-9-2024)
-- [SMILE 5.0 -- March 15, 2024](#smile-50----march-15-2024)
-- [SMILE 5.0 -- February 7, 2024](#smile-50----february-7-2024)
+- [SMILE 5.0 - December 23, 2025](#smile-50----december-23-2025)
+- [SMILE 5.0 - November 19, 2025](#smile-50----november-19-2025)
+- [SMILE 5.0 - August 15, 2025](#smile-50----august-15-2025)
+- [SMILE 5.0 - July 16, 2025](#smile-50----july-16-2025)
+- [SMILE 5.0 - June 18, 2025](#smile-50----june-18-2025)
+- [SMILE 5.0 - May 27, 2025](#smile-50----may-27-2025)
+- [SMILE 5.0 - February 28, 2025](#smile-50----february-28-2025)
+- [SMILE 5.0 - October 29, 2024](#smile-50----october-29-2024)
+- [SMILE 5.0 - September 20, 2024](#smile-50----september-20-2024)
+- [SMILE 5.0 - August 2, 2024](#smile-50----august-2-2024)
+- [SMILE 5.0 - July 22, 2024](#smile-50----july-22-2024)
+- [SMILE 5.0 - July 9, 2024](#smile-50----july-9-2024)
+- [SMILE 5.0 - March 15, 2024](#smile-50----march-15-2024)
+- [SMILE 5.0 - February 7, 2024](#smile-50----february-7-2024)
 
 ---
 
@@ -56,101 +56,86 @@ This column is available on Create Budget Source, Edit Budget Source, Budget Sou
 ## Add Stock Transactions with Restricted Budget Sources 
 In the add stock transactions, the system displays information on the status of each budget source. Budget sources with limited (restricted) information cannot be selected to proceed with the add stock transaction. 
 
+![Image](images/1.2.png)
+![Image](images/1.3.png)
+
+## Reduce Stock Transactions with Restricted Budget Sources
+Users cannot perform stock reduction transactions for materials that use restricted budget sources.
+
+![Image](images/1.4.png)
 
 ---
 
-### SMILE 5.0 -- November 19, 2025
+## SMILE 5.0 -- November 19, 2025
 
-Feature Update Summary in this release:
+[SMILE 5.0 - Release Version 5.1] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
 
-1. Nomenclature Enhancement 
+[SMILE 5.0 - Release Version 5.1] [SMILE Web](https://smile.kemkes.go.id/)
 
-Update from the previous version: updating words or terms (wording) to assist users who have difficulty finding terms that differ from the previous version.
+### Summary of the Feature Updates in this release
 
-Nomenclature changes in SMILE 5.0 are as follows:
-|No   |Old   | New|
-|---|---|---|
-|1. |Penyedia (Provider) | 	Pengirim (Sender) |	 
-|2. |Pelanggan (Customer)	| Penerima (Receiver) |	
-|3. |Penerimaan Pengembalian (Return Receipt) |	Penerimaan Retur (Return Receipt)|	 
-|4. |Stok di Tangan (Stock on Hand) |	Sisa Stok (Remaining Stock)|
-|5. |Material  Zat Aktif (Active Ingredient Material) |	Material Produk Template (Product Template Material)	|
-|6. |Material Merek Dagang (Branded Material) |	Material Produk Varian (Product Variant Material)	|
-|7. |Nota Batch (Batch Note) |	Nota Alokasi (Allocation Note)	|
-|8. |Pengembalian (Return)	| Retur (Return)	|
-|9. |Pengembalian Faskes (Healthcare Facility Return)	| Retur Distribusi Akhir (Final Distribution Return)	|
-|10. |Stok  Pembuka (Opening Stock)	| Stok Awal (Initial Stock)	|
-|11. |Stok  Penutup (Closing Stock)	| Stok Akhir (Ending Stock)	|
+- Nomenclature <sup>_Enhancement_</sup>  
+  Updates and adjustments to the **words, terms, or wording** used in the SMILE system.
 
+- Navbar Navigation Menu** <sup>_Enhancement_</sup>  
+  Updated menu view to group features by relevant categories, improving the user experience.
 
-2. Navigation Menu Navbar Enhancement 
+- Notifications <sup>_Enhancement_</sup>  
+  Added notification features to display scheduling information and asset status, normal restock, and inactive entities. Notifications are also displayed through the device and sent in the form of a recap via email.
 
-3. Notification Enhancement
+- Global Setting – Assets
+  - Global Setting – Asset <sup>_Enhancement_</sup>  
+    Changes to the menus on *Asset Type*, *Asset Model*, and *Asset Vendor* to a new menu. In addition, the master data of *communication providers* is now merged into the *Asset Vendor* master data.
 
-Update from the previous version: addition of a notification feature to be informed of asset scheduling (asset status, asset warranty, asset calibration, asset maintenance, and asset temperature excursion), stock back to normal, and inactive entity. Additionally, the updated notification feature appears on devices and via email.
+  - Global Setting – Asset – PQS Code <sup>_New Feature_</sup>  
+    The *PQS Code* master data serves as a standard set by the WHO for assets related to temperature storage.
 
-The following are the updated notification types in SMILE 5.0:
-| No | Notification |
-|---|---|
-|i.	|Asset Status Update	After an asset status update has been performed|​
-|ii.	|Asset Warranty Reminder	When asset warranty exceeds the warranty date|​
-|iii.	|Asset Calibration Reminder	- Asset calibration expires in 1, 7, or 14 days|
-|  |- Upcoming calibration schedule before 1, 3, 7, or 14 days|​
-|iv.	|Asset Maintenance Reminder	- Asset maintenance expires in 1, 7, or 14 days|​
-|  |- Upcoming maintenance schedule before 1, 3, 7, or 14 days|
-|v.	|Inactive Entity​	Entity has not performed transaction/consumption for 7, 14, 21 up to 60 days|​
-|vi.	|Stock Back to Normal​	Material stock is between the minimum and maximum limits|​
-|vii.	|Temperature Excursion	- Temperature below minimum limit continuously for 1 hour|
+- Global Setting – Material Volume Packaging <sup>_New Feature_</sup>  
+  The *Material Packaging Volume* master data serves as the center for managing the standard information of the packaging volume for each material.
 
-Notification types that users will receive via email include:
+- Asset Inventory <sup>_Enhancement_</sup>  
+  The Asset Inventory feature in the program is moved to a separate sub-menu under Asset Management, along with two new features: Monitoring Device Inventory and Storage Temperature Monitoring.
+  - Monitoring Device Inventory <sup>_New Feature_</sup>  
+  Serves as a centralized feature for managing temperature monitoring device information.
 
-|No   |Notification Type   |
-|---|---|
-|1.	|Stock Out|
-|2.	|Stock Below Minimum|
-|3.	|Material Expiring Soon|
-|4.	|Order Shipped|
-|5.	|Inactive Entity|
-|6.	|Asset Status Change|
-|7.	|Asset Warranty Reminder|
-|8.	|Asset Calibration Reminder|
-|9.	|Asset Maintenance Reminder|
-|10.	|Stock Back to Normal|
+- Storage Temperature Monitoring <sup>_New Feature_</sup>  
+  Functions to monitor temperature conditions of assets that are connected to temperature monitoring devices at specific times.
 
-4. Asset Management -- Asset Master Data
+- Disposal Instructions <sup>_New Feature_</sup>  
+  Records material destruction instructions carried out by the entity and processes them through the Waste Management System (WMS). This feature is only accessible to users whose entities are assigned to the WMS module.
 
-5. Global Setting -- PQS Code Master Data 
+- Relocation between Programs <sup>_New Feature_</sup>  
+  Used to move materials from one program to another within the same entity.
 
-6. Global Setting -- Material Packaging Volume 
+- Stock Taking <sup>_Enhancement_</sup>  
+  Improvements to the add stock taking process include:
+  - Sorting materials based on the highest stock quantity
+  - Removal of the mandatory SO marker
+  - Addition of a confirmation pop-up before submitting stock taking data  
+    The system automatically fills unentered stock values (stock 0) as **0** before submission.
 
-7. Asset Inventory 
+- Dashboard <sup>_New Feature_</sup>
 
-8. Temperature Monitoring Device Inventory 
-
-9. Storage Temperature Monitoring 
-
-10. Disposal Instruction : records disposal instructions for materials carried out by an entity, which are then processed through the Waste Management System (WMS).
-
-11. Inter-Program Relocation : to move materials from one program to another within the same entity level in one area. 
-
-12. Stock Opname  
-
-Improvements to the stock opname addition process include:
-- Sorting materials based on the highest stock quantity;
-- Removal of mandatory SO marker;
-- Addition of a confirmation pop-up before sending SO data. The system will automatically fill unentered stock values (stock 0) with 0 before data is sent.
-
-13. Dashboard - Order Response Time Dashboard : summary of information related to order processing duration, from order creation to customer receipt.
+  - Order Response Time Dashboard <sup>_New Feature_</sup>  
+    Order Response Time Dashboard displays a summary of information related to the duration of the order process, from the time the order was placed to the customer's receipt.
     
-14. Dashboard - Order Variance Dashboard: summary of quantity or dose amounts at each stage of the order process, from order creation to customer receipt. 
+  - Order Difference Dashboard <sup>_New Feature_</sup>  
+    The Order Difference Dashboard functions to display a summary of the amount of quantity or dosage information at each stage of the order process, from the time the order is placed to received by the customer.
 
-15. Receipt & Distribution Dashboard : summary of the quantity received by an entity and the quantity distributed by an entity. 
+  - Reception & Distribution Dashboard <sup>_New Feature_</sup>  
+    The Reception & Distribution dashboard serves to display a summary of information on the amount of quantity received by the entity as well as the amount of quantity distributed by the entity.
 
-16. Abnormal Stock Dashboard : summary of abnormal stock conditions for each transaction in an entity over a specific period. 
+  - Stock Abnormal Dashboard <sup>_New Feature_</sup>  
+    The Abnormal Stock Dashboard functions to display a summary of the abnormal material stock condition of each transaction in an entity in a given period.
 
-17. Increase/Decrease Stock Dashboard : summary of material stock quantities for each increase and decrease stock transaction in an entity over a specific period. 
+  - Add/Remove Stock Dashboard <sup>_New Feature_</sup>  
+    The Add/Remove Stock dashboard displays a summary of the amount of material stock each transaction of adding and decreasing stock to an entity in a given period.
 
-18. Disposal Dashboard : summary of the total accumulated quantity/stock amount in disposal transactions for each reason in an entity over a specific period. 
+  - Discard Dashboard <sup>_New Feature_</sup>  
+    The Discard Dashboard functions to display a summary of the total accumulated quantity/amount of stock in disposal transactions for each reason on an entity in a given period.
+
+
+
 ---
 
 ## SMILE 5.0 - New🌟
