@@ -615,33 +615,33 @@ Previously, notifications for materials that were close to expiration were sent 
 - Central Delivery Update *Enhancement*
 
 ### New Feature & Enhancement
-####Annual Commitment from the Ministry of Health to the Province
+#### Annual Commitment from the Ministry of Health to the Province
 Specific users can add annual commitments per material (for allocations and buffers) in the selected year, based on the contract number and province that has been specified.
 
-image-20260115-045029.png
+![Image](images/9.1.png)
 Annual Commitment Dashboard from the Ministry of Health to the Province
 Certain users can view the progress dashboard of material realization that has been delivered based on the value of the commitments listed in the contract (for allocation and buffer), both at the national and provincial levels.
 
-image-20260115-045130.png
+![Image](images/9.2.png)
 Temperature Monitoring Dashboard
 Users can view temperature monitoring chart information that is actively registered and connected to Remote Temperature Monitoring Devices (RTMD) in SMILE.
 
-image-20260115-045230.png
+![Image](images/9.3.png)
 Changes to Account Profile Data
 Feature changes so that users can change data information such as emails, passwords, and others in their SMILE account independently
 
-image-20260115-045356.png
+![Image](images/9.4.png)
 Force Change Password
 Feature changes to make it easier for Admins to ask users to change their passwords through the system.
 
-image-20260115-045453.png
+![Image](images/9.5.png)
 Update Group Menu
 Changes to the navbar menu in Immunization and logistics, previously there were 7 menus, now there are 4 menus
 
-image-20260115-045607.png
+![Image](images/9.6.png)
  
 
-image-20260115-045629.png
+![Image](images/9.7.png)
 Update Sequence Rabies
 Update on the separation of vaccination types into 3, namely pre-exposure, post-exposure and booster.
 
@@ -651,13 +651,13 @@ IM booster sequence changes: day 0 maximum 1 dose, day 3 maximum 1 dose. ID boos
 
 Dosage filling for PEP vaccine IM method: PEP day 0 dose quantity = 2. If you will fill 1 dose, please use the pre-exposure vaccination type.
 
-image-20260115-050139.png
+![Image](images/9.8.png)
 Rabies Dashboard Update
 Changing the Sankey diagram to a stacked bar diagram
 
 Additional number of hospital entities in the program coverage section
 
-image-20260115-050248.png
+![Image](images/9.9.png)
 Adjustment Formula for Stock Availability and Replenishment from Out of Stock
 Formula adjustments for stock availability, replenishment from out of stock and abnormal stock
 
@@ -665,20 +665,20 @@ Formula adjustments for stock availability exports, replenishment from out of st
 
 Additional Per Material Entity tab on stock availability, replenishment from out of stock and abnormal stock pages
 
-image-20260115-050335.png
+![Image](images/9.10.png)
 iOS Training & Production Logistic
 
 iOS Logistics Training is now available on the App Store with the search keyword "SMILE Logistics Training"
 
 iOS Production Logistics is still unlisted, it can be accessed via the following link: Click here
 
-image-20260115-050419.png
+![Image](images/9.11.png)
 Central Delivery Update
 Additional delivery types include " Regular " (for allocation delivery) and " Central Buffer " (for buffer delivery)
 
 Addition of Contract Number column
 
-image-20260115-050553.png
+![Image](images/9.12.png)
 
 ---
 
