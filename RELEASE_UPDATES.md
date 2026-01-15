@@ -6,7 +6,8 @@ This document provides information on the enhancement and update features of **S
 ---
 
 ## Table Of Content
-- [SMILE 5.0 -- December 23, 2025](#smile5.0--december23-2025)
+- [SMILE 5.0 -- December 23, 2025](#smile-50----december-23-2025)
+- [SMILE 5.0 -- November 19, 2025](#smile-50----november-19-2025)
 
 ---
 
