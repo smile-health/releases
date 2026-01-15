@@ -373,91 +373,61 @@ The "Annual Commitment vs Realization" feature monitors the achievement in quant
 
 ## July 16, 2025 
 
-[Smile Immunization - Release Version 3.8.1] Download App 
+#### [Smile Immunization - Release Version 3.8.1] Download App 
 
-Feature Updates in this release
-Create Distribution Dengue Transaction with New Form Enhancement
+### Feature Updates in this release
+- Create Distribution Dengue Transaction with New Form *Enhancement*
+- Development of Annual Planning and Master Data *Enhancement*
+- Notification Development and Daily Email Recap *Enhancement*
 
-Development of Annual Planning and Master Data Enhancement
+### Enhancement Feature
+#### Create Distribution Dengue Transaction with New Form 
+- Transaction Process:
+  - Select Material
+    - Distribution → Entity > Activity > Material > Select Material Batch
+  - Data Input:
+    - NIK
+    - NIK is used by the system to recommend vaccine doses and to search patient data in the database.
+    - Select the vaccine sequence (Dose I / II). The vaccine sequence is automatically filled by the system based on the NIK.
+    - If the patient transaction is not found, the system fills in Dose I.
+    - If the patient’s last transaction is Dose I, the system fills in Dose II.
+    - If the user changes the selected Dose, the system will display a confirmation pop-up.
+    - Total Distribution (only 1 per transaction)
+    - Reaction after vaccination (Fever, Red Rash, Seizure, No Reaction, Other)
+    - If the reaction = Other, an additional field appears for manual input.
+  - Patient Data Verification:
+    - If the patient is not yet registered → Click Fill Form
+    - If the patient is already registered → The button changes to "View Patient Form"
+  - When Submitting a Transaction
+    - If Dose II is submitted first & there is no Dose I, the system requests the input of Dose I data first.
+  - Patient Data:
+    - Generated from NIK: Gender and Date of Birth
+    - Entered by the user: Full Name, Marital Status, Last Educational, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History & Prevention
 
-Notification Development and Daily Email Recap Enhancement
+![Image](images/5.1.png)
+![Image](images/5.2.png)
 
-Enhancement Feature
-Create Distribution Dengue Transaction with New Form 
-Transaction Process:
+- Addition of Adverse Event Following Immunization (AEFI):
+  a. Click "View Transaction"
+  b. Click "View AEFI History" on the desired transaction
+  c. Click + on the top right of the screen
+  d. The content of the reaction after vaccination and the actual date of the reaction
 
-Select Material
-
-Distribution → Entity > Activity > Material > Select Material Batch
-
-Data Input:
-
-NIK  
-
-NIK is used by the system to recommend vaccine doses and to search patient data in the database.  
-
-Select the vaccine sequence (Dose I / II). The vaccine sequence is automatically filled by the system based on the NIK.  
-
-If the patient transaction is not found, the system fills in Dose I.  
-
-If the patient’s last transaction is Dose I, the system fills in Dose II.  
-
-If the user changes the selected Dose, the system will display a confirmation pop-up.  
-
-Total Distribution (only 1 per transaction)  
-
-Reaction after vaccination (Fever, Red Rash, Seizure, No Reaction, Other)  
-
-If the reaction = Other, an additional field appears for manual input.
-
-Patient Data Verification:
-
-If the patient is not yet registered → Click Fill Form  
-
-If the patient is already registered → The button changes to "View Patient Form"
-
-When Submitting a Transaction:
-
-If Dose II is submitted first & there is no Dose I, the system requests the input of Dose I data first.
-
-Patient Data:
-
-Generated from NIK: Gender and Date of Birth
-
-Entered by the user: Full Name, Marital Status, Last Educational, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History & Prevention
-
-image-20260115-022204.png
-image-20260115-022233.png
-Addition of Adverse Event Following Immunization (AEFI): 
-
-Click "View Transaction"
-
-Click "View AEFI History" on the desired transaction
-
-Click + on the top right of the screen
-
-The content of the reaction after vaccination and the actual date of the reaction
-
-image-20260115-022554.png
+![Image](images/5.3.png)
  
 
-Development of Annual Planning and Master Data
-Percentage Customization on the Grant Amount Data Master as one of the calculations
-
-Ability to change master data in the middle of the annual planning process
-
-Change of "Distribution Per Month" formula from 1 Month + 1 Week to 1 Month only
+#### Development of Annual Planning and Master Data
+- Percentage Customization on the Grant Amount Data Master as one of the calculations
+- Ability to change master data in the middle of the annual planning process
+- Change of "Distribution Per Month" formula from 1 Month + 1 Week to 1 Month only
 
  
 
-Notification Development and Daily Email Recap 
-Set up daily recap recipients using User settings
-
-Change sentences in 4 notifications
-
-Change sentences and logic in temperature notifications over maximum and less than minimum
-
-Added 3 new notifications
+#### Notification Development and Daily Email Recap 
+- Set up daily recap recipients using User settings
+- Change sentences in 4 notifications
+- Change sentences and logic in temperature notifications over maximum and less than minimum
+- Added 3 new notifications
 
 ---
 
