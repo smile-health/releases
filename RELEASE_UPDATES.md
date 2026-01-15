@@ -761,16 +761,15 @@ Change cold chain temperature limits and view logger activity history by display
 View stocks with KFA levels
 View the stock of material level Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
-image-20260115-055444.png
+![Image](images/13.1.png)
 Create material orders with KFA levels
 Create material orders with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
-image-20260115-055444.png
+![Image](images/13.2.png)
 View the stock dashboard with KFA levels
 View the stock dashboard with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93).
 
-image-20260115-055708.png
-SMILE 3.0 - June 13rd, 2024
+![Image](images/13.3.png)
 
 ---
 
@@ -786,16 +785,16 @@ SMILE 3.0 - June 13rd, 2024
 View Coldchain Capacity with capacity projections
 Added coldchain capacity projections related to maximum data of each stock
 
-image-20260115-055943.png
+![Image](images/14.1.png)
 View Capacity for Annual Planning
 Comparing the actual cold chain with the total needs from the annual planning.
 
-image-20260115-060030.png
+![Image](images/14.2.png)
 View Coldchain Capacity Projections in Orders
 Added coldchain capacity projections in order details to inform users about the estimated capacity used once the order is fulfilled.
 
-image-20260115-060116.png
-SMILE 3.0 - March 15th, 2024
+![Image](images/14.3.png)
+
 
 ---
 
@@ -816,48 +815,47 @@ SMILE 3.0 - March 15th, 2024
 #### View the SMILE vs SMDV Dashboard
 Seeing the difference in stock comparison data in smile with the stock comparison in biofarma's shipments for immunization vaccines.
 
-image-20260115-060539.png
+![Image](images/15.1.png)
 #### Asset Inventory at SMILE Logistic
 
 Adding an inventory of assets contained in each entity  in SMILE Logistics both via the Mobile and Web applications
 
-image-20260115-060631.png
+![Image](images/15.2.png)
  
 
-image-20260115-060637.png
- 
+![Image](images/15.3.png)
 
-image-20260115-060644.png
+![Image](images/15.4.png)
  
 
 #### Update the flow of stock taking at SMILE Immunization
 Flow update for doing stock taking without selecting activities
 
-image-20260115-060723.png
+![Image](images/15.5.png)
 #### Update the Rabies/VAR distribution feature in SMILE Immunization
 Add NIK/Non NIK and the date of the rabies vaccination sequence
 
-image-20260115-060808.png
+![Image](images/15.6.png)
  
 
-image-20260115-060813.png
+![Image](images/15.7.png)
  
 
-image-20260115-060819.png
+![Image](images/15.8.png)
  
 
 #### View the Asset Inventory Dashboard in SMILE Immunization
 New dashboard showing asset inventory input results
 
-image-20260115-060923.png
+![Image](images/15.9.png)
 #### View the Stock Dashboard on SMILE Immunization and Logistics
 New dashboard showing summary of remaining stock & stock not received
 
-image-20260115-061002.png
+![Image](images/15.10.png)
 #### Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization
 Dynamic data feature for the Ministry of Health on the Stock Taking Dashboard
 
-image-20260115-061052.png
+![Image](images/15.11.png)
 
 
 ---
