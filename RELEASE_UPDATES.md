@@ -521,10 +521,10 @@ Previously, notifications for materials that were close to expiration were sent 
 #### Addition of 92 Filters and Data to the Stock Taking List
 - On the Stock Taking List page, users can see the name of the variant or material of the active substance + the strength of each line of data.
 
-image-20260115-033132.png
+![Image](images/7.1.png)
 - Users can also search based on material 92 or 93 by first selecting the KFA Material Level. If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
 
-image-20260115-033203.png
+![Image](images/7.2.png)
  
 
 #### Changes to Entity Progress and Compliance calculations
@@ -532,7 +532,7 @@ image-20260115-033203.png
 - Material progress must contain numerator (top) and denominator (bottom) data. The counter is the amount of material that has been taken stock of the entity in activities related to its materials. The denominator is the amount of material managed by the entity & is required to carry out Stock Taking.
 - The materials managed by an entity are seen from whether the entity has ever had a transaction with the material or not. Specifically for BMHP Screening activities, materials managed by entities are seen from the relationship between entities and their materials.
 
-image-20260115-033258.png
+![Image](images/7.3.png)
 - On the Entity Compliance tab, users can now see the number of entities that have done stock taking, have not done stock taking, and the total.
 - An Entity is categorized as "Stock Taking" if it has done Stock Taking on all required materials
 - Example
@@ -540,14 +540,14 @@ image-20260115-033258.png
   - Example 2: If a new entity performs stock taking on 8 of the required 8 materials, then this entity is said to have done stock taking.
   - Example 3: If an entity has 10 materials that are mandatory Stock Taking. However, the entity performs stock taking on 9 mandatory materials + 2 non-mandatory materials. So, the entity is still categorized as "Not doing stock taking" until all the materials that must be stock taken are taken.
 
-image-20260115-033402.png
+![Image](images/7.4.png)
 #### Stock Taking Dashboard Versioning
 - All changes in this release are version 2 of the stock taking dashboard.
 
-image-20260115-033852.png
+![Image](images/7.5.png)
 - If there is a need to view the old version, then the user can access it by omitting /v2 from the URL. So, it becomes /dashboard/stock-opname.
 
-image-20260115-033911.png
+![Image](images/7.6.png)
  
 
 ---
