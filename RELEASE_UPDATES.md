@@ -302,13 +302,13 @@ The Discard Dashboard displays a summary of the total accumulated quantity/amoun
 We are proud to announce the launch of SMILE 5.0, a significant milestone in the evolution of the SMILE application, transforming into a service-based modular architecture. Using a strangling strategy, this transformation is carried out gradually so that modules in SMILE 3.0 are replaced by independent services that provide better scalability and flexibility.
 
  
-Key Points in This Release
+### Key Points in This Release
 
-- Service Modularization: Core modules have been transformed into standalone services, facilitating application management, development, and performance improvement.
-- Iterative Release Strategy: SMILE 5.0 is launched gradually, so migration from SMILE 3.0 is not done all at once in one major release.
-- New Features & Enhancements: Addition of program selection Homepage, Stock Transfer, Relocation features, along with user experience and user interface (UI/UX) improvements that provide a consistent look and easier access to important information.
-- Refactoring and Scalability: Code has been refactored to improve stability, performance, and application readiness in a cloud environment.
-- Fulfillment of Non-Functional Requirements: Aspects such as scalability, cloud readiness, and CI/CD automation standards in accordance with DPG (Digital Public Goods) guidelines have been comprehensively implemented.
+- **Service Modularization**: Core modules have been transformed into standalone services, facilitating application management, development, and performance improvement.
+- **Iterative Release Strategy**: SMILE 5.0 is launched gradually, so migration from SMILE 3.0 is not done all at once in one major release.
+- **New Features & Enhancements**: Addition of program selection Homepage, Stock Transfer, Relocation features, along with user experience and user interface (UI/UX) improvements that provide a consistent look and easier access to important information.
+- **Refactoring and Scalability**: Code has been refactored to improve stability, performance, and application readiness in a cloud environment.
+- **Fulfillment of Non-Functional Requirements**: Aspects such as scalability, cloud readiness, and CI/CD automation standards in accordance with DPG (Digital Public Goods) guidelines have been comprehensively implemented.
 
 ### Background
 
@@ -316,28 +316,38 @@ This transformation is a strategic step to present a SMILE application that is m
 
  ### New Features and Enhancement
 
-#### Program Homepage 🌟
+#### Program Homepage
 
-The Program Homepage feature, as the main display that facilitates users to access various modules and functions in an integrated manner, is still under development and will be added in the next release soon.
+#### Relocation Feature 
 
-#### Relocation Feature 🌟
+#### Stock Transfer Feature 
 
-The relocation feature is accessed via the Orders > Relocation Request menu, supporting stock transfers between locations with better management.
+### New Features
+#### Homepage Program 
+The Homepage Program  feature as the main display that makes it easier for users to access various modules and functions in an integrated manner is still under development and will be added soon in the next release.
+![Image](images/3.1.png)
+![Image](images/3.2.png)
+![Image](images/3.3.png)
 
-#### Stock Transfer Feature 🌟
+#### Relocation Features 
+The relocation feature is accessed through the Order > Relocation Request menu, supporting the movement of stock between locations with better management.
+![Image](images/3.4.png)
+![Image](images/3.5.png)
 
-The stock transfer feature is accessed via the Inventory > Stock Transfer menu, allowing precise and easy stock transfers between programs.
+#### Stock Transfer Features 
+The stock transfer feature is accessed through the Inventory > Stock Transfer menu, allowing stock transfer between programs to be precise and easy.
+![Image](images/3.6.png)
+![Image](images/3.7.png)
 
-#### Main Feature Simplification
+#### Key Features Simplification
 
-Process simplification for the following features:
-
-- Report Incident
-- Reconciliation
-- Stock Opname
-- Cash/Goods Asset Inventory
-- Disposal Shipment
-- Self-Disposal
+- Process simplification on features:
+  - Ticketing System
+  - Reconciliation
+  - Stock Taking
+  - Asset Inventory
+  - Disposal Shipped
+  - Self-Disposal
 
 ---
 
