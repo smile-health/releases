@@ -510,51 +510,42 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ## May 27, 2025
 
-[Smile Logistics - Release Version 1.4.1] Download App
+#### [Smile Logistics - Release Version 1.4.1] Download App
 
-Feature Updates in this release
-Addition of 92 Filters and Data to the Stock Taking List  Enhancement
+### Feature Updates in this release
+- Addition of 92 Filters and Data to the Stock Taking List  Enhancement
+- Changes to Entity Progress and Compliance calculations  Enhancement
+- Stock Taking Dashboard Versioning Enhancement
 
-Changes to Entity Progress and Compliance calculations  Enhancement
-
-Stock Taking Dashboard Versioning Enhancement
-
-Enhancement Feature
-Addition of 92 Filters and Data to the Stock Taking List
-On the Stock Taking List page, users can see the name of the variant or material of the active substance + the strength of each line of data.
+### Enhancement Feature
+#### Addition of 92 Filters and Data to the Stock Taking List
+- On the Stock Taking List page, users can see the name of the variant or material of the active substance + the strength of each line of data.
 
 image-20260115-033132.png
-Users can also search based on material 92 or 93 by first selecting the KFA Material Level. If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
+- Users can also search based on material 92 or 93 by first selecting the KFA Material Level. If the selected Material KFA Level is Active Substance + Strength (92), then the user can search based on the Active Substance + Strength material. If the selected Material KFA Level is Trademark (93), then the user can search based on the Trademark material.
 
 image-20260115-033203.png
  
 
-Changes to Entity Progress and Compliance calculations
-On the Stock Taking Dashboard page, the "Stock Taking Results per Active Substance + Strength Material" tab, there is a change in the formula in calculating the progress of stock taking for each entity. Users can see the rightmost column named "Mandatory Material Progress".
-
-Material progress must contain numerator (top) and denominator (bottom) data. The counter is the amount of material that has been taken stock of the entity in activities related to its materials. The denominator is the amount of material managed by the entity & is required to carry out Stock Taking.
-
-The materials managed by an entity are seen from whether the entity has ever had a transaction with the material or not. Specifically for BMHP Screening activities, materials managed by entities are seen from the relationship between entities and their materials.
+#### Changes to Entity Progress and Compliance calculations
+- On the Stock Taking Dashboard page, the "Stock Taking Results per Active Substance + Strength Material" tab, there is a change in the formula in calculating the progress of stock taking for each entity. Users can see the rightmost column named "Mandatory Material Progress".
+- Material progress must contain numerator (top) and denominator (bottom) data. The counter is the amount of material that has been taken stock of the entity in activities related to its materials. The denominator is the amount of material managed by the entity & is required to carry out Stock Taking.
+- The materials managed by an entity are seen from whether the entity has ever had a transaction with the material or not. Specifically for BMHP Screening activities, materials managed by entities are seen from the relationship between entities and their materials.
 
 image-20260115-033258.png
-On the Entity Compliance tab, users can now see the number of entities that have done stock taking, have not done stock taking, and the total.
-
-An Entity is categorized as "Stock Taking" if it has done Stock Taking on all required materials
-
-Example
-
-Example 1: If a new entity performs stock taking on 31 materials out of the 40 required materials, then this entity is said to have not performed stock taking.
-
-Example 2: If a new entity performs stock taking on 8 of the required 8 materials, then this entity is said to have done stock taking.
-
-Example 3: If an entity has 10 materials that are mandatory Stock Taking. However, the entity performs stock taking on 9 mandatory materials + 2 non-mandatory materials. So, the entity is still categorized as "Not doing stock taking" until all the materials that must be stock taken are taken.
+- On the Entity Compliance tab, users can now see the number of entities that have done stock taking, have not done stock taking, and the total.
+- An Entity is categorized as "Stock Taking" if it has done Stock Taking on all required materials
+- Example
+  - Example 1: If a new entity performs stock taking on 31 materials out of the 40 required materials, then this entity is said to have not performed stock taking.
+  - Example 2: If a new entity performs stock taking on 8 of the required 8 materials, then this entity is said to have done stock taking.
+  - Example 3: If an entity has 10 materials that are mandatory Stock Taking. However, the entity performs stock taking on 9 mandatory materials + 2 non-mandatory materials. So, the entity is still categorized as "Not doing stock taking" until all the materials that must be stock taken are taken.
 
 image-20260115-033402.png
-Stock Taking Dashboard Versioning
-All changes in this release are version 2 of the stock taking dashboard.
+#### Stock Taking Dashboard Versioning
+- All changes in this release are version 2 of the stock taking dashboard.
 
 image-20260115-033852.png
-If there is a need to view the old version, then the user can access it by omitting /v2 from the URL. So, it becomes /dashboard/stock-opname.
+- If there is a need to view the old version, then the user can access it by omitting /v2 from the URL. So, it becomes /dashboard/stock-opname.
 
 image-20260115-033911.png
  
@@ -563,63 +554,40 @@ image-20260115-033911.png
 
 ## February 28, 2025
 
-[Smile Immunization - Release Version 3.8.0] Download App 
-Feature Updates in this release
-Addition of Material Setting for Dengue  New Feature
+#### [Smile Immunization - Release Version 3.8.0] Download App 
+### Feature Updates in this release
+- Addition of Material Setting for Dengue  *New Feature*
+- Create Dengue Distribution Transaction  *New Feature*
 
-Create Dengue Distribution Transaction  New Feature
-
-New Feature
-Addition of Material Setting for Dengue
-New Features: Users can now add materials with Dengue activities.
-
-Rules:
-
-If the user selects Activity = "Dengue" and Type = "Vaccine" (Yes), then the Need Vaccine Sequence of Dengue field will appear.
-
-This field will always be displayed but in a non-editable state (disabled) to maintain consistency with the Rabies feature.
-
-In the case of Dengue, this field always requires a sequence, so it cannot be changed by the user.
+### New Feature
+#### Addition of Material Setting for Dengue
+-  **New Features**: Users can now add materials with Dengue activities.
+-  **Rules:**
+  -  If the user selects Activity = "Dengue" and Type = "Vaccine" (Yes), then the Need Vaccine Sequence of Dengue field will appear
+  -  This field will always be displayed but in a non-editable state (disabled) to maintain consistency with the Rabies feature.
+  -  In the case of Dengue, this field always requires a sequence, so it cannot be changed by the user.
 
 image-20260115-043712.png
-Create Dengue Distribution Transaction
-Transaction Process: 
-
-Select Material:
-
-Expenditure > Entity > Activity > Materials > Select Batch Materials
-
-Data Input:
-
-Patient diagnosis
-
-If diagnosed (Yes) → Fill in the Month & Year
-
-Select the vaccine sequence (Dose I/II)
-
-Total amount (only 1 per transaction)
-
-NIK & reaction after vaccine (Fever, Red Rash, Seizures, Others)
-
-If reaction = Other, an additional field appears for manual input
-
-Patient Data Verification:
-
-Click "Fill in the Form"
-
-If the patient is not yet registered → Navigate to the patient form
-
-If the patient is already → the button changes to "View Forms"
-
-When submitting a transaction:
-
-If Dose II is sent first & there is no Dose I, the system requests Dose I data input first.
-
-Patient Data:
-
-Generated from NIK: Gender, Date of Birth, and Age
-
-User input: Name, Marital Status, Education, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History
+#### Create Dengue Distribution Transaction
+- Transaction Process:
+  - Select Material:
+    - Expenditure > Entity > Activity > Materials > Select Batch Materials
+  - Data Input:
+    - Patient diagnosis
+    - If diagnosed (Yes) → Fill in the Month & Year
+    - Select the vaccine sequence (Dose I/II)
+    - Total amount (only 1 per transaction)
+    - NIK & reaction after vaccine (Fever, Red Rash, Seizures, Others)
+    - If reaction = Other, an additional field appears for manual input
+  - Patient Data Verification:
+    - Click "Fill in the Form"
+    - If the patient is not yet registered → Navigate to the patient form
+    - If the patient is already → the button changes to "View Forms"
+  - When submitting a transaction:
+    - If Dose II is sent first & there is no Dose I, the system requests Dose I data input first.
+  - Patient Data:
+    - Generated from NIK: Gender, Date of Birth, and Age
+    - User input: Name, Marital Status, Education, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History
 
 image-20260115-043859.png
 image-20260115-043911.png
@@ -629,8 +597,8 @@ image-20260115-043911.png
 
 ## October 29, 2024
 
-[SMILE Immunization - Release Version 3.7.6] Download App
-[SMILE Logistics - Release Version 1.3.6] Download App
+#### [SMILE Immunization - Release Version 3.7.6] Download App
+#### [SMILE Logistics - Release Version 1.3.6] Download App
 
 Feature Updates in this release
 Annual Commitment from the Ministry of Health to the Province  New Feature
@@ -726,8 +694,8 @@ image-20260115-050553.png
 ---
 
 ## September 20, 2024
-[SMILE Immunization - Release Version 3.7.5] Download Application
-[SMILE Logistics - Release Version 1.3.3] Download Application
+#### [SMILE Immunization - Release Version 3.7.5] Download Application
+#### [SMILE Logistics - Release Version 1.3.3] Download Application
 
 Feature Updates in this release
 Update the flow to add stock taking Enhancement
