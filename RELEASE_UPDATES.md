@@ -3,6 +3,13 @@
 ## About
 This document provides information on the enhancement and update features of **SMILE**.
 
+---
+
+## Table Of Content
+- [SMILE 5.0 -- December 23, 2025](#smile5.0--december23-2025)
+
+---
+
 ## Page Contents
 
 ### SMILE 5.0 -- December 23, 2025 
