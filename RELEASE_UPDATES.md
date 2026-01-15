@@ -695,15 +695,15 @@ Addition of Contract Number column
 Update the flow to add stock taking
 Updating the flow of adding stock take so that users can focus on materials, not on activities and users can get markers for which materials have been stock taken.
 
-image-20260115-051208.png
+![Image](images/10.1.png)
 View the recapitulation of the stock taking process for each specific period
 Users can view and download a summary of the stocktaking process for each specific period.
 
-image-20260115-051257.png
+![Image](images/10.2.png)
 Download stock book reports by province, district/city, health center and entity for the required period
 Users can download material stock reports based on province, district/city, health center and entity for the required period.
 
-image-20260115-051444.png
+![Image](images/10.3.png)
 
 ---
 
@@ -718,11 +718,11 @@ image-20260115-051444.png
 Confirm to stop the Rabies Vaccination notification
 Users can confirm to stop the Rabies Vaccination notification.
 
-image-20260115-051915.png
+![Image](images/11.1.png)
 View assets that have more than one temperature range and capacity
 Users can view Assets that have more than one Temperature Range and Capacity, such as Freezers and Vaccine Refrigerators.
 
-image-20260115-054652.png
+![Image](images/11.2.png)
  
 
 
