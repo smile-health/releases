@@ -741,11 +741,11 @@ Users can view Assets that have more than one Temperature Range and Capacity, su
 Distribution rabies vaccines with a pre-exposure type
 Carrying out rabies vaccine distribution with pre-exposure types consisting of Intra-Muscular and Intra Dermal.
 
-image-20260115-054932.png
+![Image](images/12.1.png)
 Change the cold chain temperature limit and view the logger activity history
 Change cold chain temperature limits and view logger activity history by displaying cold chain status and temperature limits.
 
-image-20260115-055148.png
+![Image](images/12.2.png)
 
 ---
 
