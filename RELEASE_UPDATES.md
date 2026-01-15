@@ -351,17 +351,30 @@ The stock transfer feature is accessed through the Inventory > Stock Transfer me
 
 ---
 
-### August 15, 2025
+## August 15, 2025
+### Feature Updates in this release
 
-1. Annual Commitment vs Realization Dashboard 
-The "Annual Commitment vs Realization" feature monitors the quantitative achievement of commitment allocations and buffer stocks for vaccines and other logistics set by the Indonesian Ministry of Health for each province during one fiscal year.​
-​
+Annual Commitment vs Realization v2 Dashboard *Enhancement*
 
-2. Email Notification for Stock <50% of National Quarterly Need: Every day, the system checks stock availability and compares it with the national quarterly need. If vaccine or BMHP stock is less than 50% of the total national quarterly need, the system will send an email notification to users registered in the Indonesian Ministry of Health, BioFarma, and UNDP entities.​
+### Enhancement Features
+
+#### Annual Commitment vs Realization v2 Dashboard 
+The "Annual Commitment vs Realization" feature monitors the achievement in quantity of vaccine and other logistics allocation and buffer commitments that have been set by the Indonesian Ministry of Health to each province for one fiscal year.
+
+- **Total Annual Requirement**: The number of vaccine needs (dose units and vials) derived from annual planning by considering the number of targets, number of administrations, coverage targets and Utilization Index (IP).
+- **Total Annual Commitment**: The number of vaccine commitments (dose units and vials) from all contracts with the Vaccine Provider and BMHP Vaccine according to the selected year. The commitment amount is the accumulation of the allocation and buffer that has been specified in the contract.
+- **Annual Requirements and Remaining Stock**: Displays the overall development of vaccine fulfillment and BMHP Vaccine based on total needs, current stock and consumption expenditure.
+- **Annual Commitment vs Realization – National**: Displays the overall progress of the realization of vaccine procurement shown for allocation and buffer based on the value of the commitment stated in the contract. The value of the commitment (unit dose and vial) for the procurement of vaccines based on the approved annual contract. The value of the commitment in the contract is shown for allocation and buffer. Fulfillment/realization is the value of the commitment in the contract that has been delivered. The value that has not been delivered is the difference between the value of the commitment stated in the contract and the value of the commitment that has been realized.
+- **Realization and Target**: Displaying the overall progress of the realization of vaccine procurement shown for the allocation has been sent and the buffer has been sent. Undelivered commitments are procurement that refers to allocations in contracts that have not been delivered.
+- **Annual Commitment vs Realization – Province**: Display the progress of the realization of vaccine procurement shown for allocation and buffer based on the value of commitments stated in the contract for each province.
+![Image](images/4.1.png)
+- **Stock Notification Email <50% National Quarter Needs**: Every day, the system checks the availability of stock and compares it with the needs of the national quarter. If the vaccine stock or BMHP is less than 50% of the total national quarter needs, the system will send an email notification to users registered with the Indonesian Ministry of Health, BioFarma, and UNDP entities.​
+![Image](images/4.2.png)
+![Image](images/4.3.png)
 
 ---
 
-### July 16, 2025 
+## July 16, 2025 
 
 1. Create Dengue Expenditure Transaction with New Form 
 
@@ -379,7 +392,7 @@ The "Annual Commitment vs Realization" feature monitors the quantitative achieve
 
 ---
 
-### June 18, 2025
+## June 18, 2025
 
 1. Addition of Filter and KFA 92 Data on Transaction Monitoring Dashboard 
 
@@ -403,7 +416,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### May 27, 2025
+## May 27, 2025
 
 1. Addition of Filter and KFA 92 Data on Stock Opname List 
 
@@ -413,7 +426,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### February 28, 2025
+## February 28, 2025
 
 1. Addition of Material Setting for Dengue  
 
@@ -421,7 +434,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### October 29, 2024
+## October 29, 2024
 
 
 1. Add Annual Commitment from Ministry of Health to Province 
@@ -450,7 +463,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### September 20, 2024
+## September 20, 2024
 1. Update process for adding stock opname 
 
 2. View recap of stock opname process for a specific period 
@@ -459,7 +472,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### August 2, 2024
+## August 2, 2024
 
 1. Perform confirmation to stop Rabies Vaccination notifications 
 
@@ -467,7 +480,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### July 22, 2024
+## July 22, 2024
 
 1. Perform rabies vaccine expenditure with prevention type 
 
@@ -475,7 +488,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### July 9, 2024
+## July 9, 2024
 
 1. View stock with KFA level 
 
@@ -485,7 +498,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### June 13, 2024
+## June 13, 2024
 1. View Coldchain Capacity with capacity projection 
 
 2. View Capacity for Annual Planning 
@@ -494,7 +507,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### March 15, 2024
+## March 15, 2024
 
 
 1. View SMILE vs SMDV Dashboard 
@@ -513,7 +526,7 @@ Based on the last calibration date and the set interval, the system will send a 
 
 ---
 
-### February 7, 2024
+## February 7, 2024
 
 1. View Transaction Monitoring Dashboard in SMILE Logistic 
 
