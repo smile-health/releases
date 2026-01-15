@@ -1,7 +1,7 @@
 # SMILE Update Release Note
 
 ## About
-This document purpose to provide information about enhancement and update feature of SMILE.
+This document provides information on the enhancement and update features of **SMILE**.
 
 ## Page Contents
 
