@@ -836,13 +836,13 @@ Flow update for doing stock taking without selecting activities
 #### Update the Rabies/VAR distribution feature in SMILE Immunization
 Add NIK/Non NIK and the date of the rabies vaccination sequence
 
-`![Image](images/15.6.png)`
+![Image](images/15.6.solve.png)
  
 
-`![Image](images/15.7.png)`
+![Image](images/15.7.solve.png)
  
 
-`![Image](images/15.8.png)`
+![Image](images/15.8.solve.png)
  
 
 #### View the Asset Inventory Dashboard in SMILE Immunization
