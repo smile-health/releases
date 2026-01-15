@@ -6,34 +6,34 @@ This document provides information on the enhancement and update features of **S
 ---
 
 ## Table Of Content
-- [SMILE 5.0 - December 23, 2025](#smile-50----december-23-2025)
-- [SMILE 5.0 - November 19, 2025](#smile-50----november-19-2025)
-- [SMILE 5.0 - August 15, 2025](#smile-50----august-15-2025)
-- [SMILE 5.0 - July 16, 2025](#smile-50----july-16-2025)
-- [SMILE 5.0 - June 18, 2025](#smile-50----june-18-2025)
-- [SMILE 5.0 - May 27, 2025](#smile-50----may-27-2025)
-- [SMILE 5.0 - February 28, 2025](#smile-50----february-28-2025)
-- [SMILE 5.0 - October 29, 2024](#smile-50----october-29-2024)
-- [SMILE 5.0 - September 20, 2024](#smile-50----september-20-2024)
-- [SMILE 5.0 - August 2, 2024](#smile-50----august-2-2024)
-- [SMILE 5.0 - July 22, 2024](#smile-50----july-22-2024)
-- [SMILE 5.0 - July 9, 2024](#smile-50----july-9-2024)
-- [SMILE 5.0 - March 15, 2024](#smile-50----march-15-2024)
-- [SMILE 5.0 - February 7, 2024](#smile-50----february-7-2024)
+- [SMILE 5.0 - December 23, 2025](#smile-50---december-23-2025)
+- [SMILE 5.0 - November 19, 2025](#smile-50---november-19-2025)
+- [SMILE 5.0 - September 15, 2025](#smile-50---september-15-2025)
+- [SMILE 3.0 - August 15, 2025](#smile-50---august-15-2025)
+- [SMILE 3.0 - July 16, 2025](#smile-30---july-16-2025)
+- [SMILE 3.0 - June 18, 2025](#smile-30---june-18-2025)
+- [SMILE 3.0 - May 27, 2025](#smile-30---may-27-2025)
+- [SMILE 3.0 - February 28, 2025](#smile-30---february-28-2025)
+- [SMILE 3.0 - October 29, 2024](#smile-30---october-29-2024)
+- [SMILE 3.0 - September 20, 2024](#smile-30---september-20-2024)
+- [SMILE 3.0 - August 2, 2024](#smile-30---august-2-2024)
+- [SMILE 3.0 - July 22, 2024](#smile-30---july-22-2024)
+- [SMILE 3.0 - July 9, 2024](#smile-30---july-9-2024)
+- [SMILE 3.0 - March 15, 2024](#smile-30---march-15-2024)
+- [SMILE 3.0 - February 7, 2024](#smile-30---february-7-2024)
 
 ---
 
-## Page Contents
+## SMILE 5.0 - December 23, 2025 
 
-### SMILE 5.0 -- December 23, 2025 
 [SMILE 5.0 - Release Version 5.1.2] [Download Application Android Version](https://play.google.com/store/apps/details?hl=id&id=com.logistikimunisasi.mobile) 
 
 [SMILE 5.0 - Release Version 5.1.2] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
 
 [SMILE 5.0 - Release Version 5.1.2] [SMILE Web](https://smile.kemkes.go.id/)
 
-## Summary of the Feature Updates in this release
-
+### Summary of the Feature Updates in this release
+----
 - **Restricted Usage of Budget Sources in Global Settings** *Enhancement*  
   Super Admins can now create or change budget sources by specifying the use of budget sources, which are **restricted** or **unrestricted** according to needs.
 
@@ -44,8 +44,8 @@ This document provides information on the enhancement and update features of **S
   Users cannot create reduce stock transactions if they use **restricted budget** sources.
 
 ### Enhancement Features
-
-## Restricted Usage of Budget Sources in Global Settings
+----
+#### Restricted Usage of Budget Sources in Global Settings
 
 This update adds a **Restricted Usage** column to the budget source in Global Settings, allowing Super Admins to determine whether a budget source is **restricted** or **unrestricted** as needed.
 This column is available on Create Budget Source, Edit Budget Source, Budget Source Detail page, Budget Source Detail in Program Settings.
@@ -53,27 +53,27 @@ This column is available on Create Budget Source, Edit Budget Source, Budget Sou
 ![Detail Sumber Anggaran](images/1.1.png)
 
 
-## Add Stock Transactions with Restricted Budget Sources 
+#### Add Stock Transactions with Restricted Budget Sources 
 In the add stock transactions, the system displays information on the status of each budget source. Budget sources with limited (restricted) information cannot be selected to proceed with the add stock transaction. 
 
 ![Image](images/1.2.png)
 ![Image](images/1.3.png)
 
-## Reduce Stock Transactions with Restricted Budget Sources
+#### Reduce Stock Transactions with Restricted Budget Sources
 Users cannot perform stock reduction transactions for materials that use restricted budget sources.
 
 ![Image](images/1.4.png)
 
 ---
 
-## SMILE 5.0 -- November 19, 2025
+## SMILE 5.0 - November 19, 2025
 
 [SMILE 5.0 - Release Version 5.1] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
 
 [SMILE 5.0 - Release Version 5.1] [SMILE Web](https://smile.kemkes.go.id/)
 
 ### Summary of the Feature Updates in this release
-
+----
 - Nomenclature <sup>_Enhancement_</sup>  
   Updates and adjustments to the **words, terms, or wording** used in the SMILE system.
 
@@ -134,8 +134,9 @@ Users cannot perform stock reduction transactions for materials that use restric
   - Discard Dashboard <sup>_New Feature_</sup>  
     The Discard Dashboard functions to display a summary of the total accumulated quantity/amount of stock in disposal transactions for each reason on an entity in a given period.
 
-## New Features & Enhancement
-### Nomenclature Enhancement
+### New Features & Enhancement
+----
+#### Nomenclature Enhancement
 An update from the previous one, namely an update to the wording or terminology to make it easier for users who experience difficulties when encountering terms that differ from the previous version.
 | Old Term                     | New Terms                    | Platform        |
 |------------------------------|------------------------------|-----------------|
@@ -162,10 +163,10 @@ The update from the previous was that the old navbar menu only had 3 main menus.
 
 > ℹ️ To see the mapping of the appearance of the **old navbar menu** and the **new navbar menu**, please refer to the **Quick Guide**.
 
-### Notification Enhancement
+#### Notification Enhancement
 The update from the previous version is the addition of a notification feature to showed the scheduling of assets (asset status, asset warranty, asset calibration, asset maintenance and asset temperature excursion), normal stock and inactive entities. In addition, updates feature notifications appear via device and email. 
 
-#### Application
+**Application**
 Here are the notification type updates in SMILE 5.0:
 | No. | Notification Type                   | When to Get Notification                                                                 |
 |-----|-------------------------------------|------------------------------------------------------------------------------------------|
@@ -184,7 +185,7 @@ Here are the notification type updates in SMILE 5.0:
 
 > ℹ️ The asset status change notification, asset calibration reminder, asset warranty reminder, asset maintenance reminder and temperature excursion do not display the program type because the asset is global and the asset can have more than 1 program.
 
-### Email
+**Email**
 Users can receive and view a summary of notifications via email at daily times.
 > ⚠️ Users who are not selected (checked) to receive a daily recap email will not receive a daily summary email.
 
@@ -204,19 +205,19 @@ The types of notifications that users will get via email consist of:
 | 10  | Stock Levels Returned to Normal     |
 
 
-### Global Setting - Assets
+#### Global Setting - Assets
 The Asset Type, Asset Model, and Asset Vendor Data Master are now merged into one new menu tab in Global Settings and are no longer available in Program Settings. In addition, the Communication Provider Master Data has also been merged into the Asset Vendor Master Data to centralize the management of service provider data.
 ![Image](images/2.11.webp)
 
-### Global Setting - Assets - PQS Code
+#### Global Setting - Assets - PQS Code
 The PQS Code Master Data feature serves as a standard set by the WHO for assets related to temperature storage. This feature includes adding, changing, viewing details, and exporting PQS Code.
 ![Image](images/2.12.webp)
 
-### Global Setting - Material - Material Volume Packaging
+#### Global Setting - Material - Material Volume Packaging
 The PQS Code Master Data feature serves as a standard set by the WHO for assets related to temperature storage. This feature includes adding, changing, viewing details, and exporting PQS Code.
 ![Image](images/2.13.webp)
 
-### Asset Inventory
+#### Asset Inventory
 The Asset Inventory feature in the program is moved to a separate sub-menu under Asset Management, along with two new features: Monitoring Device Inventory and Storage Temperature Monitoring.
 ![Image](images/2.14.webp)
 ![Image](images/2.15.webp)
@@ -224,13 +225,13 @@ The Asset Inventory feature in the program is moved to a separate sub-menu under
 ![Image](images/2.16.webp)
 ![Image](images/2.16.1.png)
 
-### Monitoring Device Inventory
+#### Monitoring Device Inventory
 The Monitoring Device Inventory feature serves as a temperature monitoring tool information management center that is part of asset management. This feature includes adding, changing, viewing details, and exporting monitoring device within SMILE.
 
 ![Image](images/2.17.webp)
 ![Image](images/2.18.webp)
 
-### Storage Temperature Monitoring
+#### Storage Temperature Monitoring
 The Storage Temperature Monitoring feature functions as a temperature monitoring center for assets that have a relationship with monitoring devices. This feature includes viewing details, and exporting asset on storage temperature within SMILE.
 
 ![Image](images/2.19.webp)
@@ -238,7 +239,7 @@ The Storage Temperature Monitoring feature functions as a temperature monitoring
 ![Image](images/2.19.2.png)
 
 
-### Disposal Instructions
+#### Disposal Instructions
 The Disposal Instructions feature serves to record material disposal instructions carried out by the entity and will then be processed through the Waste Management System (WMS).
 
 The Disposal Instructions menu will appear and be accessible if the entity assigned by the user is already registered in the Waste Management program. If the user entity is not yet registered to the WMS module, then the menu displayed is Self-Destruction.
@@ -248,12 +249,12 @@ The Disposal Instructions menu will appear and be accessible if the entity assig
 ![Image](images/2.23.webp)
 
 
-### Relocation between Program
+#### Relocation between Program
 The Relocation between Program feature is used to move materials from one program to another within the same entity. This feature is equipped with acknowledgement in the form of a checkbox that must be filled in as confirmation that the material transfer has been known by the destination program.
 ![Image](images/2.24.webp)
 ![Image](images/2.25.webp)
 
-### Stock Taking
+#### Stock Taking
 - Improvements to the add stock taking process include:
   - Sorting materials based on the highest stock quantity;
   - Remove of the mandatory SO marker;
@@ -263,47 +264,47 @@ The Relocation between Program feature is used to move materials from one progra
 ![Image](images/2.27.webp)
 
 
-### Order Response Time Dashboard
+#### Order Response Time Dashboard
 The Order Response Time Dashboard displays a summary of information related to the duration of the order process, from the time the order was placed to being received by the customer. This feature helps monitor service performance and order handling speed by material, entity, and region.
 
 ![Image](images/2.28.webp)
 
-### Order Difference Dashboard
+#### Order Difference Dashboard
 The Order Difference Dashboard displays a summary of the quantity or dosage amount information at each stage of the order process, from the time the order is placed to being received by the customer. Through this dashboard, users can quickly monitor and compare differences in quantity/dosage by material, entity, or region.
 
 ![Image](images/2.29.webp)
 
-### Reception & Distribution Dashboard
+#### Reception & Distribution Dashboard
 The Reception & Distribution Dashboard displays a summary of the information of the quantity received by the entity as well as the quantity distributed by the entity. Through this dashboard, users can monitor and compare the movements of incoming stock (all types of receipts) and outbound stock (including distribution, transfer to other entities, returns, and final distributions) by material, entity, or region.
 
 ![Image](images/2.30.webp)
 
-### Abnormal Stock Dashboard
+#### Abnormal Stock Dashboard
 The Abnormal Stock Dashboard displays a summary of the abnormal material stock conditions of each transaction on an entity in a given period. Through this dashboard, users can monitor the number of abnormal stock events of each transaction and the total number of abnormal event days in a given period in real time based on the material, entity, or region.
 
 ![Image](images/2.31.webp)
 
-### Add/Remove Stock Dashboard
+#### Add/Remove Stock Dashboard
 The Add/Remove Stock Dashboard displays a summary of the amount of material stock each transaction of adding and decreasing stock on an entity in a given period. Through this dashboard, users can monitor the amount of material stock from the add stock transaction and reduce stock in real terms based on the material, entity, or region.
 
 ![Image](images/2.32.webp)
 
-### Discard Dashboard
+#### Discard Dashboard
 The Discard Dashboard displays a summary of the total accumulated quantity/amount of stock in a disposal transaction for each reason on an entity in a given period. Through this dashboard, users can monitor the total discharge stock in real time by material, entity, or region.
 
 ![Image](images/2.33.webp)
 
 ---
 
-## SMILE 5.0 - New🌟
+## SMILE 5.0 - New🌟 (September 16th, 2025)
 
 ### Overview
-
+----
 We are proud to announce the launch of SMILE 5.0, a significant milestone in the evolution of the SMILE application, transforming into a service-based modular architecture. Using a strangling strategy, this transformation is carried out gradually so that modules in SMILE 3.0 are replaced by independent services that provide better scalability and flexibility.
 
  
 ### Key Points in This Release
-
+----
 - **Service Modularization**: Core modules have been transformed into standalone services, facilitating application management, development, and performance improvement.
 - **Iterative Release Strategy**: SMILE 5.0 is launched gradually, so migration from SMILE 3.0 is not done all at once in one major release.
 - **New Features & Enhancements**: Addition of program selection Homepage, Stock Transfer, Relocation features, along with user experience and user interface (UI/UX) improvements that provide a consistent look and easier access to important information.
@@ -311,16 +312,17 @@ We are proud to announce the launch of SMILE 5.0, a significant milestone in the
 - **Fulfillment of Non-Functional Requirements**: Aspects such as scalability, cloud readiness, and CI/CD automation standards in accordance with DPG (Digital Public Goods) guidelines have been comprehensively implemented.
 
 ### Background
-
+----
 This transformation is a strategic step to present a SMILE application that is more prepared to accommodate future needs, with a modern technological foundation that allows for faster and easier service integration and development.
 
- ### New Features and Enhancement
-
+### New Features and Enhancement
+----
 - Homepage Program
 - Relocation Feature
 - Stock Transfer Feature 
 
 ### New Features
+----
 #### Homepage Program 
 The Homepage Program  feature as the main display that makes it easier for users to access various modules and functions in an integrated manner is still under development and will be added soon in the next release.
 ![Image](images/3.1.png)
@@ -349,14 +351,16 @@ The stock transfer feature is accessed through the Inventory > Stock Transfer me
 
 ---
 
-## August 15, 2025
+## SMILE 3.0 - August 15, 2025
+
 ### Feature Updates in this release
+----
 - Annual Commitment vs Realization v2 Dashboard *Enhancement*
 
 ### Enhancement Features
-
+----
 #### Annual Commitment vs Realization v2 Dashboard 
-The "Annual Commitment vs Realization" feature monitors the achievement in quantity of vaccine and other logistics allocation and buffer commitments that have been set by the Indonesian Ministry of Health to each province for one fiscal year.
+The **Annual Commitment vs Realization** feature monitors the achievement in quantity of vaccine and other logistics allocation and buffer commitments that have been set by the Indonesian Ministry of Health to each province for one fiscal year.
 
 - **Total Annual Requirement**: The number of vaccine needs (dose units and vials) derived from annual planning by considering the number of targets, number of administrations, coverage targets and Utilization Index (IP).
 - **Total Annual Commitment**: The number of vaccine commitments (dose units and vials) from all contracts with the Vaccine Provider and BMHP Vaccine according to the selected year. The commitment amount is the accumulation of the allocation and buffer that has been specified in the contract.
@@ -371,16 +375,18 @@ The "Annual Commitment vs Realization" feature monitors the achievement in quant
 
 ---
 
-## July 16, 2025 
+## SMILE 3.0 - July 16, 2025 
 
-#### [Smile Immunization - Release Version 3.8.1] Download App 
+[Smile Immunization - Release Version 3.8.1] Download App
 
 ### Feature Updates in this release
+----
 - Create Distribution Dengue Transaction with New Form *Enhancement*
 - Development of Annual Planning and Master Data *Enhancement*
 - Notification Development and Daily Email Recap *Enhancement*
 
 ### Enhancement Feature
+----
 #### Create Distribution Dengue Transaction with New Form 
 - Transaction Process:
   - Select Material
@@ -431,19 +437,21 @@ The "Annual Commitment vs Realization" feature monitors the achievement in quant
 
 ---
 
-## June 18, 2025
+## SMILE 3.0 - June 18, 2025
 
-#### [Smile Logistics - Release Version 1.4.1] Download App
+[Smile Logistics - Release Version 1.4.1] Download App
 
 ### Feature Updates in this release
+----
 - Addition of 92 Filters and Data to the Transaction Monitoring Dashboard  *Enhancement*
 - Notification of Expired Material in 60 and 90 days  *Enhancement*
 - Maintenance, Calibration, and Warranty Information on Asset Inventory *Enhancement*
 - Order Integration with SIHA and SITB *New Feature*
 
 ### New Feature & Enhancement
-- Addition of 92 Filters and Data to the Transaction Monitoring Dashboard
-On the Transaction Monitoring List page of the Complete Entity tab, users can now view the parent material data (KFA 92) of each transaction in the table.
+----
+#### Addition of 92 Filters and Data to the Transaction Monitoring Dashboard
+- On the Transaction Monitoring List page of the Complete Entity tab, users can now view the parent material data (KFA 92) of each transaction in the table.
 
 ![Image](images/6.1.png)
  
@@ -457,11 +465,11 @@ On the Transaction Monitoring List page of the Complete Entity tab, users can no
 - In addition, the material grouping data on the Consumption Per Material chart also follows the selected KFA Filter.
 
 ![Image](images/6.4.png)
-### Notification of Expired Material in 60 and 90 days
+#### Notification of Expired Material in 60 and 90 days
 Previously, notifications for materials that were close to expiration were sent on the 30th, 14th, 10th, 3rd, and 1st day before the expiration date. Now, notifications will also be sent 60 and 90 days before the material expires.
 
 ![Image](images/6.5.png)
-### Maintenance, Calibration, and Warranty Information on Asset Inventory
+#### Maintenance, Calibration, and Warranty Information on Asset Inventory
 - Currently users can record the following information:
   - Warranty start and end dates
   - Last date of maintenance
@@ -481,7 +489,8 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ![Image](images/6.10.png)
 ![Image](images/6.11.png)
-### Order Integration with SIHA and SITB
+
+#### Order Integration with SIHA and SITB
 - In the integration of SMILE with the HIV AIDS INFORMATION SYSTEM (SIHA) and the Tuberculosis Information System (SITB), the process begins with SIHA or SITB making a request to the SMILE API to make an order. The status of the Order made will be a Draft 
 
 ![Image](images/6.12.png)
@@ -508,16 +517,18 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ---
 
-## May 27, 2025
+## SMILE 3.0 - May 27, 2025
 
-#### [Smile Logistics - Release Version 1.4.1] Download App
+[Smile Logistics - Release Version 1.4.1] Download App
 
 ### Feature Updates in this release
+----
 - Addition of 92 Filters and Data to the Stock Taking List  Enhancement
 - Changes to Entity Progress and Compliance calculations  Enhancement
 - Stock Taking Dashboard Versioning Enhancement
 
 ### Enhancement Feature
+----
 #### Addition of 92 Filters and Data to the Stock Taking List
 - On the Stock Taking List page, users can see the name of the variant or material of the active substance + the strength of each line of data.
 
@@ -552,14 +563,17 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ---
 
-## February 28, 2025
+## SMILE 3.0 - February 28, 2025
 
-#### [Smile Immunization - Release Version 3.8.0] Download App 
+[Smile Immunization - Release Version 3.8.0] Download App 
+
 ### Feature Updates in this release
+----
 - Addition of Material Setting for Dengue  *New Feature*
 - Create Dengue Distribution Transaction  *New Feature*
 
 ### New Feature
+----
 #### Addition of Material Setting for Dengue
 -  **New Features**: Users can now add materials with Dengue activities.
 -  **Rules:**
@@ -595,12 +609,13 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ---
 
-## October 29, 2024
+## SMILE 3.0 - October 29, 2024
 
-#### [SMILE Immunization - Release Version 3.7.6] Download App
-#### [SMILE Logistics - Release Version 1.3.6] Download App
+[SMILE Immunization - Release Version 3.7.6] Download App
+[SMILE Logistics - Release Version 1.3.6] Download App
 
 ### Feature Updates in this release
+----
 - Annual Commitment from the Ministry of Health to the Province  *New Feature*
 - Annual Commitment Dashboard from the Ministry of Health to the Province  *New Feature*
 - Temperature Monitoring Dashboard *New Feature*
@@ -615,6 +630,7 @@ Previously, notifications for materials that were close to expiration were sent 
 - Central Delivery Update *Enhancement*
 
 ### New Feature & Enhancement
+----
 #### Annual Commitment from the Ministry of Health to the Province
 Specific users can add annual commitments per material (for allocations and buffers) in the selected year, based on the contract number and province that has been specified.
 
@@ -674,16 +690,18 @@ Changes to the navbar menu in Immunization and logistics, previously there were 
 
 ---
 
-## September 20, 2024
-#### [SMILE Immunization - Release Version 3.7.5] Download Application
-#### [SMILE Logistics - Release Version 1.3.3] Download Application
+## SMILE 3.0 - September 20, 2024
+[SMILE Immunization - Release Version 3.7.5] Download Application
+[SMILE Logistics - Release Version 1.3.3] Download Application
 
 ### Feature Updates in this release
+----
 - Update the flow to add stock taking *Enhancement*
 - View the recapitulation of the stock taking process for each specific period *Enhancement*
 - Download stock book reports by province, district/city, health center and entity for the required period *Enhancement*
 
 ### Enhancement Feature
+----
 #### Update the flow to add stock taking
 Updating the flow of adding stock take so that users can focus on materials, not on activities and users can get markers for which materials have been stock taken.
 
@@ -699,15 +717,18 @@ Users can download material stock reports based on province, district/city, heal
 
 ---
 
-## August 2, 2024
-#### [SMILE Immunization - Release Version 3.7.4] Download Application
+## SMILE 3.0 - August 2, 2024
+
+[SMILE Immunization - Release Version 3.7.4] Download Application
 
 ### Feature Updates in this release
+----
 - Confirm to stop the Rabies Vaccination notification *New Feature*
 - View assets that have more than one temperature range and capacity *New Feature*
 
 ### New Feature
-Confirm to stop the Rabies Vaccination notification
+----
+#### Confirm to stop the Rabies Vaccination notification
 Users can confirm to stop the Rabies Vaccination notification.
 
 ![Image](images/11.1.png)
@@ -720,16 +741,18 @@ Users can view Assets that have more than one Temperature Range and Capacity, su
 
 ---
 
-## July 22, 2024
+## SMILE 3.0 - July 22, 2024
 
-#### [SMILE Immunization - Release Version 3.7.2] Download Application
-#### [SMILE Logistics - Release Version 1.3.1] Download Application
+[SMILE Immunization - Release Version 3.7.2] Download Application
+[SMILE Logistics - Release Version 1.3.1] Download Application
 
 ### Feature Updates in this release
+----
 - Distribution rabies vaccines with a pre-exposure type  *New Feature*
 - Change the cold chain temperature limit and view the logger activity history  *New Feature*
 
 ### New Feature
+----
 #### Distribution rabies vaccines with a pre-exposure type
 Carrying out rabies vaccine distribution with pre-exposure types consisting of Intra-Muscular and Intra Dermal.
 
@@ -741,15 +764,18 @@ Change cold chain temperature limits and view logger activity history by display
 
 ---
 
-## July 9, 2024
-#### [SMILE Logistics - Release Version 1.3.0] Download the Application
+## SMILE 3.0 - July 9, 2024
+
+[SMILE Logistics - Release Version 1.3.0] Download the Application
 
 ### Feature Updates in this release
+----
 - View stocks with KFA levels  *New Feature*
 - Create material orders with KFA levels  *New Feature*
 - View the Stock Dashboard with KFA levels  *New Feature*
 
 ### New Feature
+----
 #### View stocks with KFA levels
 View the stock of material level Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
@@ -765,15 +791,18 @@ View the stock dashboard with material levels of Active Ingredients & Strength (
 
 ---
 
-## June 13, 2024
-#### [SMILE Immunization - Release Version 3.7.1]
+## SMILE 3.0 - June 13, 2024
+
+[SMILE Immunization - Release Version 3.7.1]
 
 ### Feature Updates in this release
+----
 - View Coldchain Capacity with capacity projections  *New Feature*
 - View Capacity for Annual Planning  *New Feature*
 - View Coldchain Capacity Projections in Orders  *New Feature*
 
 ### New Feature
+----
 #### View Coldchain Capacity with capacity projections
 Added coldchain capacity projections related to maximum data of each stock
 
@@ -790,11 +819,12 @@ Added coldchain capacity projections in order details to inform users about the 
 
 ---
 
-## March 15, 2024
+## SMILE 3.0 - March 15, 2024
 
-#### [SMILE Immunization - Release Version 3.6.3]
+[SMILE Immunization - Release Version 3.6.3]
 
 ### Feature Updates in this release
+----
 - View the SMILE vs SMDV Dashboard  *New Feature*
 - Asset Inventory at SMILE Logistic  *New Feature*
 - Update the flow of stock taking at SMILE Immunization  *Enhancement*
@@ -804,6 +834,7 @@ Added coldchain capacity projections in order details to inform users about the 
 - Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization *Enhancement*
 
 ### New Feature & Enhancement
+----
 #### View the SMILE vs SMDV Dashboard
 Seeing the difference in stock comparison data in smile with the stock comparison in biofarma's shipments for immunization vaccines.
 
@@ -853,16 +884,18 @@ Dynamic data feature for the Ministry of Health on the Stock Taking Dashboard
 
 ---
 
-## February 7, 2024
+## SMILE 3.0 - February 7, 2024
 
-#### [SMILE Immunization - Release Version 3.6.0]
+[SMILE Immunization - Release Version 3.6.0]
 
 ### Feature Updates in this release
+----
 - View the Transaction Monitoring Dashboard on SMILE Logistics  *New Feature*
 - Allocated and Shipped in accordance with activity flow activities *Enhancement*
 - Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu  *New Feature*
 
 ### New Feature & Enhancement
+----
 #### View the Transaction Monitoring Dashboard on SMILE Logistics
 New dashboard showing a summary of consumption transactions
 
