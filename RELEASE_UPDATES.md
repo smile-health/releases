@@ -567,7 +567,7 @@ Previously, notifications for materials that were close to expiration were sent 
   -  This field will always be displayed but in a non-editable state (disabled) to maintain consistency with the Rabies feature.
   -  In the case of Dengue, this field always requires a sequence, so it cannot be changed by the user.
 
-image-20260115-043712.png
+![Image](images/8.1.png)
 #### Create Dengue Distribution Transaction
 - Transaction Process:
   - Select Material:
@@ -589,8 +589,8 @@ image-20260115-043712.png
     - Generated from NIK: Gender, Date of Birth, and Age
     - User input: Name, Marital Status, Education, Occupation, Religion, Ethnic (optional), WhatsApp Number (optional), Medical History
 
-image-20260115-043859.png
-image-20260115-043911.png
+![Image](images/8.2.png)
+![Image](images/8.3.png)
 
 
 ---
