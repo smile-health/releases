@@ -820,28 +820,29 @@ Seeing the difference in stock comparison data in smile with the stock compariso
 
 Adding an inventory of assets contained in each entity  in SMILE Logistics both via the Mobile and Web applications
 
-![Image](images/15.2.png)
+![Image](images/15.2.solve.png)
  
 
-![Image](images/15.3.png)
+![Image](images/15.3.solve.png)
 
-![Image](images/15.4.png)
+
+![Image](images/15.4.solve.png)
  
 
 #### Update the flow of stock taking at SMILE Immunization
 Flow update for doing stock taking without selecting activities
 
-![Image](images/15.5.png)
+![Image](images/15.5.solve.png)
 #### Update the Rabies/VAR distribution feature in SMILE Immunization
 Add NIK/Non NIK and the date of the rabies vaccination sequence
 
-![Image](images/15.6.png)
+`![Image](images/15.6.png)`
  
 
-![Image](images/15.7.png)
+`![Image](images/15.7.png)`
  
 
-![Image](images/15.8.png)
+`![Image](images/15.8.png)`
  
 
 #### View the Asset Inventory Dashboard in SMILE Immunization
