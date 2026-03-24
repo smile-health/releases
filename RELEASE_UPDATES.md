@@ -6,6 +6,7 @@ This document provides information on the enhancement and update features of **S
 ---
 
 ## Table Of Content
+- [SMILE 5.0 - March 9, 2026](#smile-50---march-9-2026)
 - [SMILE 5.0 - December 23, 2025](#smile-50---december-23-2025)
 - [SMILE 5.0 - November 19, 2025](#smile-50---november-19-2025)
 - [SMILE 5.0 - September 15, 2025](#smile-50---september-15-2025)
@@ -21,6 +22,78 @@ This document provides information on the enhancement and update features of **S
 - [SMILE 3.0 - July 9, 2024](#smile-30---july-9-2024)
 - [SMILE 3.0 - March 15, 2024](#smile-30---march-15-2024)
 - [SMILE 3.0 - February 7, 2024](#smile-30---february-7-2024)
+
+---
+
+## SMILE 5.0 - March 9, 2026 
+
+[SMILE 5.0 - Release Version 5.2.7] [Download Application Android Version](https://play.google.com/store/apps/details?hl=id&id=com.logistikimunisasi.mobile) 
+
+[SMILE 5.0 - Release Version 5.2.7] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
+
+[SMILE 5.0 - Release Version 5.2.7] [SMILE Web](https://smile.kemkes.go.id/)
+
+### Summary of the Feature Updates in this release
+----
+- **Cold Storage Capacity Dashboard** *New Feature* 
+  This feature is for viewing and analyzing the Cold Storage Capacity Dashboard from cold capacity status to annual cold storage capacity.
+
+- **SMILE vs SMDV Dashboard** *New Feature*  
+  This feature is to display summary information comparing vaccine distribution data (SMILE) with delivery reporting data (SMDV).
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Rabies Immunization Dashboard** *New Feature*  
+  This feature is to monitor rabies immunization vaccination data, rabies immunization coverage in various regions and show the results of compliance of rabies immunization recipients throughout the stages of rabies case management in the health service system.
+  > ℹ️ This feature is **only available** in the **Rabies** program.
+
+- **Annual Commitment vs Realization Dashboard** *New Feature*  
+  This feature displays a summary of information on the quantitative achievement of material allocation and buffer commitments that have been determined by the Indonesian Ministry of Health for each province for one fiscal year.
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Projection of Cold Storage Capacity** *New Feature*  
+  This feature adds cold storage equipment capacity projections in the order details to provide users with information about the estimated capacity used once the order is fulfilled
+  > ℹ️ This feature is **only available** in the **immunization** program and the **order type** is **Order**.
+
+- **Program Plan** *Enhancement*  
+  This feature adds input to create a program plan using previous year's program plan data.
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+### New Feature & Enhancement
+----
+#### Cold Storage Capacity Dashboard
+This feature is for viewing and analyzing the Cold Storage Capacity Dashboard from cold capacity status to annual cold storage capacity.
+![Image](images/16.1.png)
+
+#### SMILE vs SMDV Dashboard  
+This feature is to display summary information comparing vaccine distribution data (SMILE) with delivery reporting data (SMDV).
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/16.2.png)
+
+#### Rabies Immunization Dashboard  
+This feature is to monitor rabies immunization vaccination data, rabies immunization coverage in various regions and show the results of compliance of rabies immunization recipients throughout the stages of rabies case management in the health service system.
+> ℹ️ This feature is **only available** in the **Rabies** program.
+
+![Image](images/16.3.png)
+
+#### Annual Commitment vs Realization Dashboard
+This feature displays a summary of information on the quantitative achievement of material allocation and buffer commitments that have been determined by the Indonesian Ministry of Health for each province for one fiscal year.
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/16.4.png)
+
+#### Projection of Cold Storage Capacity  
+This feature adds cold storage equipment capacity projections in the order details to provide users with information about the estimated capacity used once the order is fulfilled
+> ℹ️ This feature is **only available** in the **immunization** program and the **order type** is **Order**.
+
+![Image](images/16.5.png)
+![Image](images/16.6.png)
+
+#### Program Plan 
+This feature adds input to create a program plan using previous year's program plan data.
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/16.7.png)
 
 ---
 
@@ -783,7 +856,7 @@ View the stock of material level Active Ingredients & Strength (KFA 92) and Trad
 #### Create material orders with KFA levels
 Create material orders with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93)
 
-![Image](images/13.2.png)
+![Image](images/13.2-solve.png)
 #### View the stock dashboard with KFA levels
 View the stock dashboard with material levels of Active Ingredients & Strength (KFA 92) and Trademarks (KFA 93).
 
