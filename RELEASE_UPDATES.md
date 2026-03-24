@@ -35,26 +35,26 @@ This document provides information on the enhancement and update features of **S
 
 ### Summary of the Feature Updates in this release
 ----
-- **Cold Storage Capacity Dashboard** *New Feature* 
+- **Cold Storage Capacity Dashboard** <sup>_New Feature_</sup>  
   This feature is for viewing and analyzing the Cold Storage Capacity Dashboard from cold capacity status to annual cold storage capacity.
 
-- **SMILE vs SMDV Dashboard** *New Feature*  
+- **SMILE vs SMDV Dashboard** <sup>_New Feature_</sup>  
   This feature is to display summary information comparing vaccine distribution data (SMILE) with delivery reporting data (SMDV).
   > ℹ️ This feature is **only available** in the **immunization** program.
 
-- **Rabies Immunization Dashboard** *New Feature*  
+- **Rabies Immunization Dashboard** <sup>_New Feature_</sup>  
   This feature is to monitor rabies immunization vaccination data, rabies immunization coverage in various regions and show the results of compliance of rabies immunization recipients throughout the stages of rabies case management in the health service system.
   > ℹ️ This feature is **only available** in the **Rabies** program.
 
-- **Annual Commitment vs Realization Dashboard** *New Feature*  
+- **Annual Commitment vs Realization Dashboard** <sup>_New Feature_</sup>  
   This feature displays a summary of information on the quantitative achievement of material allocation and buffer commitments that have been determined by the Indonesian Ministry of Health for each province for one fiscal year.
   > ℹ️ This feature is **only available** in the **immunization** program.
 
-- **Projection of Cold Storage Capacity** *New Feature*  
+- **Projection of Cold Storage Capacity** <sup>_New Feature_</sup>  
   This feature adds cold storage equipment capacity projections in the order details to provide users with information about the estimated capacity used once the order is fulfilled
   > ℹ️ This feature is **only available** in the **immunization** program and the **order type** is **Order**.
 
-- **Program Plan** *Enhancement*  
+- **Program Plan** <sup>_Enhancement_</sup>  
   This feature adds input to create a program plan using previous year's program plan data.
   > ℹ️ This feature is **only available** in the **immunization** program.
 
@@ -107,13 +107,13 @@ This feature adds input to create a program plan using previous year's program p
 
 ### Summary of the Feature Updates in this release
 ----
-- **Restricted Usage of Budget Sources in Global Settings** *Enhancement*  
+- **Restricted Usage of Budget Sources in Global Settings** <sup>_Enhancement_</sup>  
   Super Admins can now create or change budget sources by specifying the use of budget sources, which are **restricted** or **unrestricted** according to needs.
 
-- **Add Stock Transactions with Restricted Budget Sources** *Enhancement*  
+- **Add Stock Transactions with Restricted Budget Sources** <sup>_Enhancement_</sup>  
   When create add stock transactions, users can see a list of budget sources along with limited or unlimited information. Budget sources with **restricted** information cannot be selected for transactions.
 
-- **Reduce Stock Transactions with Restricted Budget Sources** *Enhancement*  
+- **Reduce Stock Transactions with Restricted Budget Sources** <sup>_Enhancement_</sup>  
   Users cannot create reduce stock transactions if they use **restricted budget** sources.
 
 ### Enhancement Features
@@ -209,7 +209,7 @@ Users cannot perform stock reduction transactions for materials that use restric
 
 ### New Features & Enhancement
 ----
-#### Nomenclature Enhancement
+#### Nomenclature 
 An update from the previous one, namely an update to the wording or terminology to make it easier for users who experience difficulties when encountering terms that differ from the previous version.
 | Old Term                     | New Terms                    | Platform        |
 |------------------------------|------------------------------|-----------------|
@@ -228,7 +228,7 @@ An update from the previous one, namely an update to the wording or terminology 
 ![Image](images/2.3.webp) ![Image](images/2.4.webp)
 
 
-### Navbar Navigation Menu Enhancement
+#### Navbar Navigation Menu 
 The update from the previous was that the old navbar menu only had 3 main menus. The new navbar menu now has 5 main menus, with feature grouping based on relevant categories.
 
 ![Image](images/2.5.webp)
@@ -236,7 +236,7 @@ The update from the previous was that the old navbar menu only had 3 main menus.
 
 > ℹ️ To see the mapping of the appearance of the **old navbar menu** and the **new navbar menu**, please refer to the **Quick Guide**.
 
-#### Notification Enhancement
+#### Notification 
 The update from the previous version is the addition of a notification feature to showed the scheduling of assets (asset status, asset warranty, asset calibration, asset maintenance and asset temperature excursion), normal stock and inactive entities. In addition, updates feature notifications appear via device and email. 
 
 **Application**
@@ -388,11 +388,11 @@ We are proud to announce the launch of SMILE 5.0, a significant milestone in the
 ----
 This transformation is a strategic step to present a SMILE application that is more prepared to accommodate future needs, with a modern technological foundation that allows for faster and easier service integration and development.
 
-### New Features and Enhancement
+### New Features 
 ----
-- Homepage Program
-- Relocation Feature
-- Stock Transfer Feature 
+- Homepage Program <sup>_New Feature_</sup>
+- Relocation Feature <sup>_New Feature_</sup>
+- Stock Transfer Feature <sup>_New Feature_</sup>
 
 ### New Features
 ----
@@ -428,7 +428,7 @@ The stock transfer feature is accessed through the Inventory > Stock Transfer me
 
 ### Feature Updates in this release
 ----
-- Annual Commitment vs Realization v2 Dashboard *Enhancement*
+- Annual Commitment vs Realization v2 Dashboard <sup>_Enhancement_</sup>
 
 ### Enhancement Features
 ----
@@ -454,9 +454,9 @@ The **Annual Commitment vs Realization** feature monitors the achievement in qua
 
 ### Feature Updates in this release
 ----
-- Create Distribution Dengue Transaction with New Form *Enhancement*
-- Development of Annual Planning and Master Data *Enhancement*
-- Notification Development and Daily Email Recap *Enhancement*
+- Create Distribution Dengue Transaction with New Form <sup>_Enhancement_</sup>
+- Development of Annual Planning and Master Data <sup>_Enhancement_</sup>
+- Notification Development and Daily Email Recap <sup>_Enhancement_</sup>
 
 ### Enhancement Feature
 ----
@@ -516,10 +516,10 @@ The **Annual Commitment vs Realization** feature monitors the achievement in qua
 
 ### Feature Updates in this release
 ----
-- Addition of 92 Filters and Data to the Transaction Monitoring Dashboard  *Enhancement*
-- Notification of Expired Material in 60 and 90 days  *Enhancement*
-- Maintenance, Calibration, and Warranty Information on Asset Inventory *Enhancement*
-- Order Integration with SIHA and SITB *New Feature*
+- Addition of 92 Filters and Data to the Transaction Monitoring Dashboard  <sup>_Enhancement_</sup>
+- Notification of Expired Material in 60 and 90 days  <sup>_Enhancement_</sup>
+- Maintenance, Calibration, and Warranty Information on Asset Inventory <sup>_Enhancement_</sup>
+- Order Integration with SIHA and SITB <sup>_New Feature_</sup>
 
 ### New Feature & Enhancement
 ----
@@ -596,9 +596,9 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ### Feature Updates in this release
 ----
-- Addition of 92 Filters and Data to the Stock Taking List  Enhancement
-- Changes to Entity Progress and Compliance calculations  Enhancement
-- Stock Taking Dashboard Versioning Enhancement
+- Addition of 92 Filters and Data to the Stock Taking List  <sup>_Enhancement_</sup>
+- Changes to Entity Progress and Compliance calculations  <sup>_Enhancement_</sup>
+- Stock Taking Dashboard Versioning <sup>_Enhancement_</sup>
 
 ### Enhancement Feature
 ----
@@ -642,8 +642,8 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ### Feature Updates in this release
 ----
-- Addition of Material Setting for Dengue  *New Feature*
-- Create Dengue Distribution Transaction  *New Feature*
+- Addition of Material Setting for Dengue  <sup>_New Feature_</sup>
+- Create Dengue Distribution Transaction  <sup>_New Feature_</sup>
 
 ### New Feature
 ----
@@ -689,18 +689,18 @@ Previously, notifications for materials that were close to expiration were sent 
 
 ### Feature Updates in this release
 ----
-- Annual Commitment from the Ministry of Health to the Province  *New Feature*
-- Annual Commitment Dashboard from the Ministry of Health to the Province  *New Feature*
-- Temperature Monitoring Dashboard *New Feature*
-- Changes to Account Profile Data *Enhancement*
-- Force Change Password *Enhancement*
-- Update Grouping Menu *Enhancement*
-- Update Sequence Rabies *Enhancement*
-- Reminder Notification Updates for Rabies Patients *Enhancement*
-- Rabies Dashboard Update *Enhancement*
-- Adjustment Formula for Stock Availability and Filling from Out of Stock *Enhancement*
-- iOS Training & Production Logistics *Enhancement*
-- Central Delivery Update *Enhancement*
+- Annual Commitment from the Ministry of Health to the Province  <sup>_New Feature_</sup>
+- Annual Commitment Dashboard from the Ministry of Health to the Province  <sup>_New Feature_</sup>
+- Temperature Monitoring Dashboard <sup>_New Feature_</sup>
+- Changes to Account Profile Data <sup>_Enhancement_</sup>
+- Force Change Password <sup>_Enhancement_</sup>
+- Update Grouping Menu <sup>_Enhancement_</sup>
+- Update Sequence Rabies <sup>_Enhancement_</sup>
+- Reminder Notification Updates for Rabies Patients <sup>_Enhancement_</sup>
+- Rabies Dashboard Update <sup>_Enhancement_</sup>
+- Adjustment Formula for Stock Availability and Filling from Out of Stock <sup>_Enhancement_</sup>
+- iOS Training & Production Logistics <sup>_Enhancement_</sup>
+- Central Delivery Update <sup>_Enhancement_</sup>
 
 ### New Feature & Enhancement
 ----
@@ -769,9 +769,9 @@ Changes to the navbar menu in Immunization and logistics, previously there were 
 
 ### Feature Updates in this release
 ----
-- Update the flow to add stock taking *Enhancement*
-- View the recapitulation of the stock taking process for each specific period *Enhancement*
-- Download stock book reports by province, district/city, health center and entity for the required period *Enhancement*
+- Update the flow to add stock taking <sup>_Enhancement_</sup>
+- View the recapitulation of the stock taking process for each specific period <sup>_Enhancement_</sup>
+- Download stock book reports by province, district/city, health center and entity for the required period <sup>_Enhancement_</sup>
 
 ### Enhancement Feature
 ----
@@ -796,8 +796,8 @@ Users can download material stock reports based on province, district/city, heal
 
 ### Feature Updates in this release
 ----
-- Confirm to stop the Rabies Vaccination notification *New Feature*
-- View assets that have more than one temperature range and capacity *New Feature*
+- Confirm to stop the Rabies Vaccination notification <sup>_New Feature_</sup>
+- View assets that have more than one temperature range and capacity <sup>_New Feature_</sup>
 
 ### New Feature
 ----
@@ -821,8 +821,8 @@ Users can view Assets that have more than one Temperature Range and Capacity, su
 
 ### Feature Updates in this release
 ----
-- Distribution rabies vaccines with a pre-exposure type  *New Feature*
-- Change the cold chain temperature limit and view the logger activity history  *New Feature*
+- Distribution rabies vaccines with a pre-exposure type  <sup>_New Feature_</sup>
+- Change the cold chain temperature limit and view the logger activity history  <sup>_New Feature_</sup>
 
 ### New Feature
 ----
@@ -843,9 +843,9 @@ Change cold chain temperature limits and view logger activity history by display
 
 ### Feature Updates in this release
 ----
-- View stocks with KFA levels  *New Feature*
-- Create material orders with KFA levels  *New Feature*
-- View the Stock Dashboard with KFA levels  *New Feature*
+- View stocks with KFA levels  <sup>_New Feature_</sup>
+- Create material orders with KFA levels  <sup>_New Feature_</sup>
+- View the Stock Dashboard with KFA levels  <sup>_New Feature_</sup>
 
 ### New Feature
 ----
@@ -870,9 +870,9 @@ View the stock dashboard with material levels of Active Ingredients & Strength (
 
 ### Feature Updates in this release
 ----
-- View Coldchain Capacity with capacity projections  *New Feature*
-- View Capacity for Annual Planning  *New Feature*
-- View Coldchain Capacity Projections in Orders  *New Feature*
+- View Coldchain Capacity with capacity projections  <sup>_New Feature_</sup>
+- View Capacity for Annual Planning  <sup>_New Feature_</sup>
+- View Coldchain Capacity Projections in Orders  <sup>_New Feature_</sup>
 
 ### New Feature
 ----
@@ -898,13 +898,13 @@ Added coldchain capacity projections in order details to inform users about the 
 
 ### Feature Updates in this release
 ----
-- View the SMILE vs SMDV Dashboard  *New Feature*
-- Asset Inventory at SMILE Logistic  *New Feature*
-- Update the flow of stock taking at SMILE Immunization  *Enhancement*
-- Update the Rabies/VAR distribution feature in SMILE Immunization *Enhancement*
-- View the Asset Inventory Dashboard in SMILE Immunization *New Feature*
-- View the Stock Dashboard on SMILE Immunization and Logistics *New Feature*
-- Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization *Enhancement*
+- View the SMILE vs SMDV Dashboard  <sup>_New Feature_</sup>
+- Asset Inventory at SMILE Logistic  <sup>_New Feature_</sup>
+- Update the flow of stock taking at SMILE Immunization  <sup>_Enhancement_</sup>
+- Update the Rabies/VAR distribution feature in SMILE Immunization <sup>_Enhancement_</sup>
+- View the Asset Inventory Dashboard in SMILE Immunization <sup>_New Feature_</sup>
+- View the Stock Dashboard on SMILE Immunization and Logistics <sup>_New Feature_</sup>
+- Addition of Stock Taking Dashboard tab for Ministry of Health on SMILE Immunization <sup>_Enhancement_</sup>
 
 ### New Feature & Enhancement
 ----
@@ -963,9 +963,9 @@ Dynamic data feature for the Ministry of Health on the Stock Taking Dashboard
 
 ### Feature Updates in this release
 ----
-- View the Transaction Monitoring Dashboard on SMILE Logistics  *New Feature*
-- Allocated and Shipped in accordance with activity flow activities *Enhancement*
-- Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu  *New Feature*
+- View the Transaction Monitoring Dashboard on SMILE Logistics  <sup>_New Feature_</sup>
+- Allocated and Shipped in accordance with activity flow activities <sup>_Enhancement_</sup>
+- Download the Request Letter, Confirmation Nota, and Batch Nota documents in the Order details menu  <sup>_New Feature_</sup>
 
 ### New Feature & Enhancement
 ----
