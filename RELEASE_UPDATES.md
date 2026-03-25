@@ -7,6 +7,7 @@ This document provides information on the enhancement and update features of **S
 
 ## Table Of Content
 - [SMILE 5.0 - March 9, 2026](#smile-50---march-9-2026)
+- [SMILE 5.0 - February 10, 2026](#smile-50---february-10-2026)
 - [SMILE 5.0 - December 23, 2025](#smile-50---december-23-2025)
 - [SMILE 5.0 - November 19, 2025](#smile-50---november-19-2025)
 - [SMILE 5.0 - September 15, 2025](#smile-50---september-15-2025)
@@ -95,6 +96,174 @@ This feature adds input to create a program plan using previous year's program p
 
 ![Image](images/16.7.png)
 
+---
+
+## SMILE 5.0 - February 10, 2026 
+
+[SMILE 5.0 - Release Version 5.2.4] [Download Application Android Version](https://play.google.com/store/apps/details?hl=id&id=com.logistikimunisasi.mobile) 
+
+[SMILE 5.0 - Release Version 5.2.4] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
+
+[SMILE 5.0 - Release Version 5.2.4] [SMILE Web](https://smile.kemkes.go.id/)
+
+### Summary of the Feature Updates in this release
+----
+- **Global Setting - Program** <sup>_Enhancement_</sup>  
+  Addition of a new Protocol field to mark the program as having a protocol.
+
+- **Global Setting - Material Data** <sup>_Enhancement_</sup>  
+  Added a new field, namely Material Subtype, to categorize materials based on subtypes of material types.
+
+- **Global Setting - Asset Type** <sup>_Enhancement_</sup>  
+  Added a new field, namely Warehouse Asset Type, to categorize asset types other than CCE and NON-CCE. Apart from that, warehouse asset types can be used in asset management to add and monitor asset temperatures with warehouse asset types.
+
+- **Global Setting - Patient** <sup>_New Feature_</sup>  
+  New feature for super admins can add patient data in bulk with imports used in the Rabies and Dengue programs.
+
+- **Global Setting - Target Group** <sup>_New Feature_</sup>  
+  New feature for super admins can manage general target groups used in the annual planning feature.
+
+- **Global Setting - Population** <sup>_New Feature_</sup>  
+  New feature for super admins can view target population data by year and add Pusdatin target population data in bulk with imports used in the annual planning feature.
+
+- **Program Setting - Material** <sup>_Enhancement_</sup>  
+  Adding a toggle feature for super admin or admin can indicate that the material requires patient data and material subtype info on the material.
+
+- **Program Setting - Protocol** <sup>_New Feature_</sup>  
+  New feature for super admins or admins to know the protocols assigned to the program and provide material and activity relations for patient vaccination transactions, including the vaccination sequence.
+
+- **Open Vial and Closed Vial Material Transactions** <sup>_New Feature_</sup>  
+  The flow of this feature is not much different from SMILE 3.0. However, the display adjusts in SMILE 5.0. Immunization Program has been added to SMILE 5.0. This feature is also available on the web platform.
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Program Plan** <sup>_New Feature_</sup>  
+  New features in SMILE 5.0 to manage program plans starting from target groups, populations, tasks, ratios, and material substitutions (optional) as an initial master of annual planning.
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Annual Planning** <sup>_New Feature_</sup>  
+  New feature in SMILE 5.0 to review and activate annual needs calculations that have been made by the City/District Health Office for the annual needs of materials and given target groups. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. 
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Annual Commitment** <sup>_New Feature_</sup>  
+  New feature in SMILE 5.0 to manage contracts between the Provincial Health Office and Suppliers. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. 
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Last Mile Distribution Transaction for Patient Vaccination in the Rabies program** <sup>_New Feature_</sup>  
+  New feature in SMILE 5.0 to create last mile distribution transactions on materials by adding patient information, vaccination order, and number of vaccinations administered. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. This feature is also available on the web platform. 
+  > ℹ️ This feature is **only available** in the **Rabies** program.
+
+- **Patient Reminder Notifications** <sup>_New Feature_</sup>  
+  The new feature in SMILE 5.0 displays notifications reminding patients to carry out the next stage of vaccination or indicating that the patient's vaccination has been completed. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. 
+  > ℹ️ This feature is **only available** in the **Rabies** program.
+
+- **Last Mile Distribution Transaction for Patient Vaccination in the Dengue program** <sup>_New Feature_</sup>  
+  New feature in SMILE 5.0 to create final distribution transactions on materials by adding patient information, disease history, reactions after vaccination, and number of vaccinations. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. This feature is also available on the web platform. 
+  > ℹ️ This feature is **only available** in the **Dengue** program.
+
+- **Adding Patient AEFI Data** <sup>_New Feature_</sup>  
+  This feature is to add information on post-immunization side events in patients who have been vaccinated under the specific Dengue program. 
+  > ℹ️ This feature is **only available** in the **Dengue** program.
+
+- **Asset Management** <sup>_Enhancement_</sup>  
+  Asset management has feature updates, namely there are 2 menu tabs on the web, namely dashboard (asset ownership inventory and temperature monitoring) and management (operational assets inventory, monitoring device inventory, and storage temperature monitoring).
+
+- **Operational Asset Inventory** <sup>_Enhancement_</sup>  
+  Added information related to warehouse asset types and added a new field, namely program.
+
+- **Storage Temperature Monitoring** <sup>_Enhancement_</sup>  
+  The feature update is that there are 2 menu tabs, namely CCE and Warehouse. CCE’s asset list updated. New features for warehouse asset display and details, including humidity threshold graphs.
+
+- **Asset Ownership Inventory Dashboard** <sup>_New Feature_</sup>  
+  This new feature is for viewing a summary of and monitoring total assets owned by an entity, including information regarding amounts, asset ownership inventory function based on entity level and entity tags.
+
+- **Temperature Monitoring Dashboard** <sup>_New Feature_</sup>  
+  This new feature is to view temperature monitoring starting from the number of cold storages, temperature monitoring devices, status of temperature monitoring devices and temperature excursions.
+
+- **Monitoring Transaction Dashboard** <sup>_Enhancement_</sup>  
+  This feature update is an update to the display as well as data and graphic displays. Add stok and reduce stock transaction are also displayed on this dashboard.
+
+- **SMILE vs ASIK Dashboard** <sup>_New Feature_</sup>  
+  This feature is to display summary comparative information between the final distribution data on the SMILE system and the injection data on the ASIK system. 
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Inventory Overview Dashboard** <sup>_New Feature_</sup>  
+  This feature displays summary information regarding material stock status, condition of the vaccine refrigerator based on temperature status, and user activity on the entity. Specifically for the Immunization program, this dashboard displays a graph of the percentage of vaccine refrigerators based on temperature status.
+
+- **Monthly Report** <sup>_New Feature_</sup>  
+  This new feature is to view all monthly logistics report recaps that have been recorded in the system. 
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Yearly Report** <sup>_New Feature_</sup>  
+  This new feature is for viewing all annual logistics report recaps that have been recorded in the system.  
+  > ℹ️ This feature is **only available** in the **immunization** program.
+
+- **Drug Usage Report and Request Form** <sup>_New Feature_</sup>  
+  This new feature is to see a recapitulation of data on drug usage and requests that have been recorded in the system based on certain periods and regions.
+
+- **Download Report** <sup>_Enhancement_</sup>  
+  This feature update includes the addition of report classifications, namely expired material, disposal, stock availability, and temperature monitoring (specifically for the immunization program).
+
+### New Feature and Enhancement 
+----
+#### Global Setting - Program
+Addition of a new Protocol field to mark the program as having a protocol.
+![Image](images/17.1.png)
+
+#### Global Setting - Material Data
+Added a new field, namely Material Subtype, to categorize materials based on subtypes of material types.
+![Image](images/17.2.png)
+
+#### Global Setting - Asset Type
+Added a new field, namely Warehouse Asset Type, to categorize asset types other than CCE and NON-CCE. Apart from that, warehouse asset types can be used in asset management to add and monitor asset temperatures with warehouse asset types.
+![Image](images/17.3.png)
+
+#### Global Setting - Patient
+New feature for super admins can add patient data in bulk with imports used in the Rabies and Dengue programs.
+![Image](images/17.4.png)
+
+#### Global Setting - Target Group
+New feature for super admins can manage general target groups used in the annual planning feature.
+![Image](images/17.5.png)
+
+#### Global Setting - Population
+New feature for super admins can view target population data by year and add Pusdatin target population data in bulk with imports used in the annual planning feature.
+![Image](images/17.6.png)
+
+#### Program Setting - Material
+Adding a toggle feature for super admin or admin can indicate that the material requires patient data and material subtype info on the material.
+
+![Image](images/17.7.png)
+
+#### Program Setting - Protocol
+New feature for super admins or admins to know the protocols assigned to the program and provide material and activity relations for patient vaccination transactions, including the vaccination sequence.
+![Image](images/17.8.png)
+
+#### Open Vial and Closed Vial Material Transactions
+The flow of this feature is not much different from SMILE 3.0. However, the display adjusts in SMILE 5.0. Immunization Program has been added to SMILE 5.0. This feature is also available on the web platform.
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.9-web.png)
+![Image](images/17.9-mobile.png)
+
+#### Program Plan  
+New features in SMILE 5.0 to manage program plans starting from target groups, populations, tasks, ratios, and material substitutions (optional) as an initial master of annual planning.
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.10.png)
+
+#### Annual Planning  
+New feature in SMILE 5.0 to review and activate annual needs calculations that have been made by the City/District Health Office for the annual needs of materials and given target groups. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. 
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.11.png)
+
+#### Annual Commitment
+New feature in SMILE 5.0 to manage contracts between the Provincial Health Office and Suppliers. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. 
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.12.png)
+
+  
 ---
 
 ## SMILE 5.0 - December 23, 2025 
