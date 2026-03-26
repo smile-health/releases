@@ -263,6 +263,92 @@ New feature in SMILE 5.0 to manage contracts between the Provincial Health Offic
 
 ![Image](images/17.12.png)
 
+#### Last Mile Distribution Transaction for Patient Vaccination in the Rabies program
+New feature in SMILE 5.0 to create last mile distribution transactions on materials by adding patient information, vaccination order, and number of vaccinations administered. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. This feature is also available on the web platform. 
+> ℹ️ This feature is **only available** in the **Rabies** program.
+
+![Image](images/17.14.png)
+![Image](images/17.16.png)
+
+#### Patient Reminder Notifications  
+The new feature in SMILE 5.0 displays notifications reminding patients to carry out the next stage of vaccination or indicating that the patient's vaccination has been completed. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. 
+> ℹ️ This feature is **only available** in the **Rabies** program.
+
+![Image](images/17.17.png)
+![Image](images/17.18.png)
+
+#### Last Mile Distribution Transaction for Patient Vaccination in the Dengue program
+New feature in SMILE 5.0 to create final distribution transactions on materials by adding patient information, disease history, reactions after vaccination, and number of vaccinations. Functionally, the features are not much different from SMILE 3.0, however the appearance has been adjusted to SMILE 5.0. This feature is also available on the web platform. 
+> ℹ️ This feature is **only available** in the **Dengue** program.
+
+![Image](images/17.20.png)
+![Image](images/17.22.png)
+
+#### Adding Patient AEFI Data
+This feature is to add information on post-immunization side events in patients who have been vaccinated under the specific Dengue program. 
+> ℹ️ This feature is **only available** in the **Dengue** program.
+
+![Image](images/17.24.png)
+![Image](images/17.26.png)
+
+#### Asset Management 
+Asset management has feature updates, namely there are 2 menu tabs on the web, namely dashboard (asset ownership inventory and temperature monitoring) and management (operational assets inventory, monitoring device inventory, and storage temperature monitoring).
+![Image](images/17.27.png)
+
+#### Operational Asset Inventory 
+Added information related to warehouse asset types and added a new field, namely program.
+![Image](images/17.28.png)
+![Image](images/17.30.png)
+
+#### Storage Temperature Monitoring  
+The feature update is that there are 2 menu tabs, namely CCE and Warehouse. CCE’s asset list updated. New features for warehouse asset display and details, including humidity threshold graphs.
+![Image](images/17.32.png)
+![Image](images/17.33.png)
+![Image](images/17.34.png)
+![Image](images/17.35.png)
+
+#### Asset Ownership Inventory Dashboard 
+This new feature is for viewing a summary of and monitoring total assets owned by an entity, including information regarding amounts, asset ownership inventory function based on entity level and entity tags.
+![Image](images/17.36.png)
+
+#### Temperature Monitoring Dashboard 
+This new feature is to view temperature monitoring starting from the number of cold storages, temperature monitoring devices, status of temperature monitoring devices and temperature excursions.
+![Image](images/17.37.png)
+
+#### Monitoring Transaction Dashboard
+This feature update is an update to the display as well as data and graphic displays. Add stok and reduce stock transaction are also displayed on this dashboard.
+![Image](images/17.38.png)
+
+#### SMILE vs ASIK Dashboard  
+This feature is to display summary comparative information between the final distribution data on the SMILE system and the injection data on the ASIK system. 
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.39.png)
+
+#### Inventory Overview Dashboard 
+This feature displays summary information regarding material stock status, condition of the vaccine refrigerator based on temperature status, and user activity on the entity. Specifically for the Immunization program, this dashboard displays a graph of the percentage of vaccine refrigerators based on temperature status.
+![Image](images/17.40.png)
+
+#### Monthly Report
+This new feature is to view all monthly logistics report recaps that have been recorded in the system. 
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.41.png)
+
+#### Yearly Report
+This new feature is for viewing all annual logistics report recaps that have been recorded in the system.  
+> ℹ️ This feature is **only available** in the **immunization** program.
+
+![Image](images/17.42.png)
+
+#### Drug Usage Report and Request Form 
+This new feature is to see a recapitulation of data on drug usage and requests that have been recorded in the system based on certain periods and regions.
+
+![Image](images/17.43.png)
+
+#### Download Report
+This feature update includes the addition of report classifications, namely expired material, disposal, stock availability, and temperature monitoring (specifically for the immunization program).
+![Image](images/17.44.png)
   
 ---
 
