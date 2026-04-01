@@ -6,6 +6,7 @@ This document provides information on the enhancement and update features of **S
 ---
 
 ## Table Of Content
+- [SMILE 5.0 - March 16, 2026](#smile-50---march-16-2026)
 - [SMILE 5.0 - March 9, 2026](#smile-50---march-9-2026)
 - [SMILE 5.0 - February 10, 2026](#smile-50---february-10-2026)
 - [SMILE 5.0 - December 23, 2025](#smile-50---december-23-2025)
@@ -25,6 +26,96 @@ This document provides information on the enhancement and update features of **S
 - [SMILE 3.0 - February 7, 2024](#smile-30---february-7-2024)
 
 ---
+
+## SMILE 5.0 - March 16, 2026 
+
+[SMILE 5.0 - Release Version 5.3.0] [Download Application Android Version](https://play.google.com/store/apps/details?hl=id&id=com.logistikimunisasi.mobile) 
+
+[SMILE 5.0 - Release Version 5.3.0] [Download Application iOS Version](https://apps.apple.com/id/app/smile-indonesia/id1597558819)
+
+[SMILE 5.0 - Release Version 5.3.0] [SMILE Web](https://smile.kemkes.go.id/)
+
+### Summary of the Feature Updates in this release
+----
+
+#### Catatan Pembaruan Sistem Web
+
+1. **Peningkatan Performa**  
+   Loading data kini lebih cepat di **Menu: Transaksi > Daftar Transaksi**  
+   🔗 https://smile.kemkes.go.id/id/immunization/v5/transaction/cursor
+
+2. **Dashboard SO**  
+   Dashboard kini selaras dengan data transaksi di **Menu: Analisis > Inventori > Stok Opname**  
+   🔗 https://smile.kemkes.go.id/id/immunization/v5/dashboard/stock-taking
+
+3. **Akurasi Data**  
+   Perbaikan notifikasi tanggal kadaluwarsa (ED) dan status VVM agar tampil konsisten.
+
+4. **Optimasi Alokasi (Multiple Batch & Varian)**  
+   Perbaikan proses alokasi pesanan sehingga dapat memilih stok dengan multiple batch dan varian di  
+   **Menu: Pesanan > Daftar Pesanan > Detail Pesanan > Alokasi Pesanan**  
+   🔗 https://smile.kemkes.go.id/id/immunization/v5/order/all
+
+5. **Validasi Alokasi**  
+   Jumlah stok yang dikunci kini dipastikan sama dengan jumlah konfirmasi pada Program Imunisasi.  
+   🔗 https://smile.kemkes.go.id/id/immunization/v5/order/all
+
+6. **Manajemen Material Alokasi**  
+   Daftar batch dengan stok 0 kini diurutkan ke bagian terbawah pada  
+   **Menu: Pesanan > Detail Pesanan > Alokasi Pesanan**
+
+7. **Fitur Unduh Dokumen VAR**  
+   Dokumen VAR kini dapat langsung diunduh melalui  
+   **Menu: Pesanan > Detail Pesanan > Laporan Penerimaan**  
+   🔗 https://smile.kemkes.go.id/id/immunization/v5/order/all
+
+8. **Ekspor Data**  
+   Nama file hasil unduhan transaksi kini lebih rapi.
+
+9. **Monitoring Suhu & Grafik**  
+   Tampilan grafik suhu bulanan kini lebih akurat di  
+   **Menu: Manajemen Aset > Pemantauan Penyimpanan Suhu**  
+   🔗 https://smile.kemkes.go.id/id/v5/global-asset/management/storage-temperature-monitoring
+
+10. **Laporan Program**  
+    Perbaikan tarik data Excel untuk laporan KIPI (khusus Program Dengue) pada  
+    **Menu: Program Dengue > Transaksi > Daftar Transaksi > Ekspor**  
+    🔗 https://smile.kemkes.go.id/id/dengue/v5/transaction
+
+11. **Perencanaan BMHP**
+    Fitur baru untuk perencanaan BHMP di Pemeriksaan Kesehatan Gratis  
+    **Menu: Program PKG > Perencanaan**  
+    🔗 [https://smile.kemkes.go.id/id/dengue/v5/transaction](https://smile.kemkes.go.id/id/bmhp-skrining/v5/bmhp-planning/history)
+    
+#### Catatan Pembaruan Sistem Mobile
+
+1. **Stabilitas Aplikasi**  
+   Penyelesaian kendala blank pada menu Distribusi Akhir, khususnya untuk Program Rabies.
+
+2. **Sinkronisasi SO**  
+   Perbaikan proses pengiriman data Stok Opname (SO) untuk Program Imunisasi dan Rabies agar lebih akurat.
+
+3. **Pembaruan Stok Otomatis**  
+   Pengurangan stok setelah transaksi distribusi akhir kini ter-update otomatis tanpa perlu refresh manual.
+
+4. **Akurasi Data**  
+   Perbaikan notifikasi Expired Date (ED) yang tidak valid.
+
+5. **Optimasi Alokasi**  
+   Pembaruan alokasi untuk penggunaan multiple batch dan varian (khusus Program Imunisasi).
+
+6. **Validasi Pesanan**  
+   Memastikan jumlah alokasi stok yang tersimpan sesuai dengan jumlah pada status konfirmasi.
+
+7. **Fitur Rabies**  
+   Penambahan tanda "Selesai" pada riwayat vaksinasi untuk memudahkan pemantauan Program Rabies.
+
+8. **Manajemen Batch**  
+   Perbaikan tampilan daftar batch untuk memastikan akurasi data pada stok yang sudah berjumlah 0.
+   
+9. **Perencanaan BMHP**  
+   Fitur terbaru untuk input perencanaan BMHP.
+
 
 ## SMILE 5.0 - March 9, 2026 
 
